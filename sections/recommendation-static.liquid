@@ -1,0 +1,41 @@
+<h3 class="rec-products-title" style="text-align : {{section.settings.text_align}}; font-size: {{section.settings.text_size}}em ; " ;>YOU MAY ALSO LIKE</h3>
+
+<div class="rec-products-wrapper"> 
+
+  {%for product in collections["collection-i"].products limit:4 %}
+  <div class="rec-product-item">
+    <a href="{{product.url}}">
+      <img src="{{product.featured_image | image_url }}" />
+    </a>
+    <p class="title">{{product.title}} </p>
+    <p class="price">{{product.price | money}} </p>
+  </div>
+  {%endfor%}
+</div>
+
+
+
+{% schema %}
+{
+"name": "products recommended",
+"settings": [
+{
+"type": "text",
+"id": "text_align",
+"label": "text alignment"
+},
+{
+"type": "text",
+"id": "text_size",
+"label": "text size (em)"
+}
+],
+"presets": [
+{
+"name": "Product recommendations",
+"category": "product"
+
+}
+]
+}
+{% endschema %}

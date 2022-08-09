@@ -1,0 +1,55 @@
+
+
+<div id="HeroWrapper " >
+  <div class="hero-custom">
+    <div class="hero__image_custom ">
+      {%- assign img_url = section.settings.image | image_url -%}
+      <img  width="1903" height="1088" 
+           src="{{ img_url }}"
+           alt="{{ section.settings.image.alt | escape }}"
+           >
+      <div class="hero__text-wrap ">
+        <div class="hero__text-align  ">
+          <div class="hero__text-content"  >
+            <p class="hero__subtitle">
+              {{ section.settings.header  | escape }}
+            </p>
+            <h2 class="hero__title h1">
+              {{ section.settings.Subheader | escape }}
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+"name": "custom hero",
+"settings":[ {
+"type": "image_picker",
+"id": "image",
+"label": "Image"
+},
+
+{
+"type": "text",
+"id": "header",
+"label": "Header"
+},
+{
+"type": "text",
+"id": "Subheader",
+"label": "Subheader"
+}
+],
+"presets": [
+{
+"name": "custom hero",
+"category": "Image"
+
+}
+]
+}
+{% endschema %}

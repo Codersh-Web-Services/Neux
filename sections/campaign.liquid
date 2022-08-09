@@ -1,0 +1,68 @@
+<div class="campaign_wrapper">
+
+    {% if  section.settings.campaign_video_link != "" %} 
+    <video width="100%" height="500px" autoplay loop playsinline  muted >
+    <source  src="{{ section.settings.campaign_video_link }}" type="video/mp4">
+    Your browser does not support the video tag.
+    </video> 
+    
+    {%else%}
+    <img loading="lazy" width="1903" height="765" class="bg-image" src="{{ section.settings.bg_image | image_url }}" alt="NEUX campaign">
+    {% endif %}
+    <div class="text-overlay">
+    <p>{{ section.settings.text1 }}</p>
+    <div class="logo-text-slider"> 
+    {% for i in (1..30) %}
+    <img  loading="lazy" width="354" height="101" src="{{ section.settings.slider_image | image_url }}" />
+    {% endfor %}
+    </div>
+    </div>
+    </div>
+    
+    
+    {% schema %}
+{
+  "name": "Campaign",
+  "settings": [
+    {
+      "type": "text",
+      "id": "campaign_video_link",
+      "label": "Campaign video url (After uploading to files)"
+    },
+    {
+      "type": "text",
+      "id": "text1",
+      "label": "Sub Head"
+    },
+    {
+      "type": "image_picker",
+      "id": "slider_image",
+      "label": "Animation Slider Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "bg_image",
+      "label": "Background Image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Campaign",
+      "category": "image"
+    }
+  ]
+}
+{% endschema %}
+    
+    {% stylesheet %}
+
+
+
+{% endstylesheet %}
+    
+    {% javascript %}
+
+
+
+{% endjavascript %}
+    

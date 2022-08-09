@@ -1,0 +1,42 @@
+<div class="instagram_wrapper">
+  <!--    <video width="100%" height="500px" controls>
+<source src="https://cdn.shopify.com/videos/c/o/v/b7d5163bc910480ea1384ff7cb168f96.mp4" type="video/mp4">
+
+Your browser does not support the video tag.
+</video>  -->
+  <p style="font-size: {{section.settings.instagram_heading_font_size}}em">{{section.settings.instagram_heading}}</p>
+  <div id="insta-feed"></div>
+</div>
+
+
+
+{% schema %}
+{
+"name": "Instagram",
+"settings": [
+{
+"type": "text",
+"id": "instagram_heading",
+"label": "Heading"
+},
+{
+"type": "text",
+"id": "instagram_heading_font_size",
+"label": "Heading font size (em)"
+}
+],
+"presets": [
+{
+"name": "Instagram",
+"category": "image"
+
+}
+]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
