@@ -278,10 +278,38 @@
             "settings": {
               "aboutdetails": "Care, support and opportunities for growth for all"
             }
+          },
+          "8aea6268-13f1-40cd-bac7-d3760eebd710": {
+            "type": "list",
+            "settings": {
+              "aboutdetails": "growth for all employees,"
+            }
+          },
+          "b4a27cc2-8915-4899-80a3-2748dd2b9e76": {
+            "type": "list",
+            "settings": {
+              "aboutdetails": "Clean, safe, and organised working conditions,"
+            }
+          },
+          "1d4c3ef0-c48c-430b-9781-a81b2aa67377": {
+            "type": "list",
+            "settings": {
+              "aboutdetails": "immaculate quality and attention to detail ,"
+            }
+          },
+          "5e132697-c279-4fb6-b4c0-61d751c81836": {
+            "type": "list",
+            "settings": {
+              "aboutdetails": "A small, close knit, highly skilled team,"
+            }
           }
         },
         "block_order": [
-          "9edef975-1684-458e-b257-93e6e9d5538c"
+          "9edef975-1684-458e-b257-93e6e9d5538c",
+          "8aea6268-13f1-40cd-bac7-d3760eebd710",
+          "b4a27cc2-8915-4899-80a3-2748dd2b9e76",
+          "1d4c3ef0-c48c-430b-9781-a81b2aa67377",
+          "5e132697-c279-4fb6-b4c0-61d751c81836"
         ],
         "settings": {
           "image": "shopify:\/\/shop_images\/makers-img-1.png",
