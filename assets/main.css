@@ -445,3 +445,72 @@ h1.product-single__title {
     margin: 0 auto;
   }
 }
+
+
+/* About us page */
+
+.makers {
+    padding: 2rem 0;
+}
+
+.makers h1 {
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+
+.makers-content .img-wrap img {
+    height: auto;
+    max-width: 100%;
+}
+
+.makers-content ul,
+.sustainbility ul {
+    padding-left: 0;
+}
+
+.makers-content ul li,
+.sustainbility ul li {
+    display: flex;
+}
+
+.makers-content span,
+.sustainbility span {
+    display: inline-block;
+}
+
+.makers-content span svg,
+.sustainbility span svg {
+    height: 16px;
+    width: 16px;
+    margin-right: 0.6rem;
+}
+
+/* <-------- MAKERS SECTION END --------> */
+
+.feedback .custom-box {
+    height: 500px;
+    width: 500px;
+    background: #2222;
+    margin: 3rem 0;
+}
+
+.feedback .text {
+    font-weight: 500;
+}
+
+/* <-------- FEEDBACK SECTION END --------> */
+
+.sustainbility {
+    padding: 3rem 0;
+}
+
+.sustainbility h2 {
+    font-size: 8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.8rem;
+}
+
+.sustainbility h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
