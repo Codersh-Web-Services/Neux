@@ -1,26 +1,25 @@
 <section class="makers">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-12">
-                    <h1>Meet our makers</h1>
-                </div>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-12">
+                <h1>Meet our makers</h1>
             </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="makers-content">
-                        <div class="img-wrap">
-                            {%- assign img_url = section.settings.image | image_url -%}
-                            <img src="{{ img_url }}" alt="{{ section.settings.image.alt | escape }}">
-                        </div>
-                        <h3 class="mt-3">
-                            {{ section.settings.header  | escape }}
-                        </h3>
-                        <ul>
-                            {% for block in section.blocks %}
-                              {% case block.type %}
-                                {% when 'list' %}
-
-                                  <li>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="makers-content">
+                    <div class="img-wrap">
+                        {%- assign img_url = section.settings.image | image_url -%}
+                        <img src="{{ img_url }}" alt="{{ section.settings.image.alt | escape }}">
+                    </div>
+                    <h3 class="mt-3">
+                        {{ section.settings.header  | escape }}
+                    </h3>
+                    <ul>
+                        {% for block in section.blocks %}
+                          {% case block.type %}
+                            {% when 'list' %}
+                            <li>
                                 <span>
                                     <svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 49 49" width="49" height="49">
                                         <title>Layer 1</title>
@@ -44,36 +43,32 @@
                                     {{ block.settings.aboutdetails }}
                                 </p>
                             </li>
-                              {% endcase %}
-                            {% endfor %}
-
-                            
-
-                        </ul>
-                    </div>
+                          {% endcase %}
+                        {% endfor %}
+                    </ul>
                 </div>
-                <div class="col-md-6">
-                    <div class="makers-content">
-                        <div class="img-wrap">
-                            {%- assign img_url = section.settings.imagebusiness | image_url -%}
-                            <img src="{{ img_url }}" alt="{{ section.settings.imagebusiness.alt | escape }}">
-                        </div>
-                        <p>
-                            {{ section.settings.headerbusiness  | escape }}
-                        </p>
+            </div>
+            <div class="col-md-6">
+                <div class="makers-content">
+                    <div class="img-wrap">
+                        {%- assign img_url = section.settings.imagebusiness | image_url -%}
+                        <img src="{{ img_url }}" alt="{{ section.settings.imagebusiness.alt | escape }}">
                     </div>
+                    <p>
+                        {{ section.settings.headerbusiness  | escape }}
+                    </p>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <section class="feedback">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8 text-center">
                     <p class="text">
-                        Thank you Wallace, June, and Ann, for your contributions with the development of Neux.
-                        I appreciate your hard work and dedication every day.
+                        {{ section.settings.feedback  | escape }}
                     </p>
                 </div>
                 <div class="row">
@@ -158,132 +153,56 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <h2>Sustainbility</h2>
+                    <h2>{{ section.settings.headersustainbility  | escape }}</h2>
                 </div>
                 <div class="col-md-5">
                     <div class="img-wrap">
-                        <img src="images/sustainbility-img.png" alt="image">
+                        {%- assign img_url = section.settings.imagesustainbility | image_url -%}
+                        <img src="{{ img_url }}" alt="{{ section.settings.imagesustainbility.alt | escape }}">
                     </div>
                 </div>
                 <div class="col-md-7">
                     <p class="my-5">
-                        The Business Social Compliance Initiative (BSCI) is a non-profit organisation. It was set up as
-                        an initiative of the Foreign Trade Association in response to the debate on how to achieve
-                        convergence in the field of corporate social responsibility. It implements the principle
-                        international labour standards such as International Labour Organisation (ILO) conventions and
-                        the United Nations (UN) Guiding Principles on Business and Human Rights (UNGPs) and guidelines
-                        for the Organisation for Economic Co-operation and Development (OECD).
+                        {{ section.settings.sustainbilitydescription  | escape }}
                     </p>
-                    <h3>so, what we are doing?</h3>
+                    <h3>{{ section.settings.sowhatheader  | escape }}</h3>
                     <ul>
-                        <li>
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 49 49" width="49" height="49">
-                                    <title>Layer 1</title>
-                                    <style>
-                                        .line { fill: none;
-                                            stroke: #000; } 
-                                    </style>
-                                    <g id="Layer 1">
-                                        <g id="&lt;Group&gt;">
+                        {% for block in section.blocks %}
+                          {% case block.type %}
+                            {% when 'list' %}
+                            <li>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 49 49" width="49" height="49">
+                                        <title>Layer 1</title>
+                                        <style>
+                                            .line {fill: none;
+                                                stroke: #000; } 
+                                        </style>
+                                        <g id="Layer 1">
                                             <g id="&lt;Group&gt;">
-                                                <g id="-e-">
-                                                    <path id="&lt;Path&gt;" class="line" d="m39.4 28.6c-5 2-9 5.9-10.9 10.9l-3.7 9.4c-0.1 0.2-0.5 0.2-0.6 0l-3.6-9.4c-1.9-5-5.9-8.9-10.9-10.9l-9.3-3.6c-0.3-0.1-0.3-0.5 0-0.6l9.3-3.6c5-2 9-5.9 10.9-10.9l3.6-9.4c0.1-0.2 0.5-0.2 0.6 0l3.7 9.4c1.9 5 5.9 8.9 10.9 10.9"/>
-                                                    <path id="&lt;Path&gt;" class="line" d="m39.4 20.8l9.3 3.6c0.3 0.1 0.3 0.5 0 0.6l-9.3 3.6"/>
+                                                <g id="&lt;Group&gt;">
+                                                    <g id="-e-">
+                                                        <path id="&lt;Path&gt;" class="line" d="m39.4 28.6c-5 2-9 5.9-10.9 10.9l-3.7 9.4c-0.1 0.2-0.5 0.2-0.6 0l-3.6-9.4c-1.9-5-5.9-8.9-10.9-10.9l-9.3-3.6c-0.3-0.1-0.3-0.5 0-0.6l9.3-3.6c5-2 9-5.9 10.9-10.9l3.6-9.4c0.1-0.2 0.5-0.2 0.6 0l3.7 9.4c1.9 5 5.9 8.9 10.9 10.9"/>
+                                                        <path id="&lt;Path&gt;" class="line" d="m39.4 20.8l9.3 3.6c0.3 0.1 0.3 0.5 0 0.6l-9.3 3.6"/>
+                                                    </g>
                                                 </g>
                                             </g>
                                         </g>
-                                    </g>
-                                </svg>
-                            </span>
-                            <p class="mb-0">
-                                Produce in small, limited drops - we only order minimums. We are not a fast fashion
-                                brand.
-                            </p>
-                        </li>
-                        <li>
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 49 49" width="49" height="49">
-                                    <title>Layer 1</title>
-                                    <style>
-                                        .line { fill: none;
-                                            stroke: #000; } 
-                                    </style>
-                                    <g id="Layer 1">
-                                        <g id="&lt;Group&gt;">
-                                            <g id="&lt;Group&gt;">
-                                                <g id="-e-">
-                                                    <path id="&lt;Path&gt;" class="line" d="m39.4 28.6c-5 2-9 5.9-10.9 10.9l-3.7 9.4c-0.1 0.2-0.5 0.2-0.6 0l-3.6-9.4c-1.9-5-5.9-8.9-10.9-10.9l-9.3-3.6c-0.3-0.1-0.3-0.5 0-0.6l9.3-3.6c5-2 9-5.9 10.9-10.9l3.6-9.4c0.1-0.2 0.5-0.2 0.6 0l3.7 9.4c1.9 5 5.9 8.9 10.9 10.9"/>
-                                                    <path id="&lt;Path&gt;" class="line" d="m39.4 20.8l9.3 3.6c0.3 0.1 0.3 0.5 0 0.6l-9.3 3.6"/>
-                                                </g>
-                                            </g>
-                                        </g>
-                                    </g>
-                                </svg>
-                            </span>
-                            <p class="mb-0">
-                                Preference the use of natural fibres such as rayons, silks and cottons where feasable.
-                            </p>
-                        </li>
-                        <li>
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 49 49" width="49" height="49">
-                                    <title>Layer 1</title>
-                                    <style>
-                                        .line { fill: none;
-                                            stroke: #000; } 
-                                    </style>
-                                    <g id="Layer 1">
-                                        <g id="&lt;Group&gt;">
-                                            <g id="&lt;Group&gt;">
-                                                <g id="-e-">
-                                                    <path id="&lt;Path&gt;" class="line" d="m39.4 28.6c-5 2-9 5.9-10.9 10.9l-3.7 9.4c-0.1 0.2-0.5 0.2-0.6 0l-3.6-9.4c-1.9-5-5.9-8.9-10.9-10.9l-9.3-3.6c-0.3-0.1-0.3-0.5 0-0.6l9.3-3.6c5-2 9-5.9 10.9-10.9l3.6-9.4c0.1-0.2 0.5-0.2 0.6 0l3.7 9.4c1.9 5 5.9 8.9 10.9 10.9"/>
-                                                    <path id="&lt;Path&gt;" class="line" d="m39.4 20.8l9.3 3.6c0.3 0.1 0.3 0.5 0 0.6l-9.3 3.6"/>
-                                                </g>
-                                            </g>
-                                        </g>
-                                    </g>
-                                </svg>
-                            </span>
-                            <p class="mb-0">
-                                High quality finishings such as french seaming and pre-shrinking fabric to ensure
-                                longevity
-                                of garment life. We encourage you to let your friends borrow, share and re-sell
-                                garments.
-                            </p>
-                        </li>
-                        <li>
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 49 49" width="49" height="49">
-                                    <title>Layer 1</title>
-                                    <style>
-                                        .line { fill: none;
-                                            stroke: #000; } 
-                                    </style>
-                                    <g id="Layer 1">
-                                        <g id="&lt;Group&gt;">
-                                            <g id="&lt;Group&gt;">
-                                                <g id="-e-">
-                                                    <path id="&lt;Path&gt;" class="line" d="m39.4 28.6c-5 2-9 5.9-10.9 10.9l-3.7 9.4c-0.1 0.2-0.5 0.2-0.6 0l-3.6-9.4c-1.9-5-5.9-8.9-10.9-10.9l-9.3-3.6c-0.3-0.1-0.3-0.5 0-0.6l9.3-3.6c5-2 9-5.9 10.9-10.9l3.6-9.4c0.1-0.2 0.5-0.2 0.6 0l3.7 9.4c1.9 5 5.9 8.9 10.9 10.9"/>
-                                                    <path id="&lt;Path&gt;" class="line" d="m39.4 20.8l9.3 3.6c0.3 0.1 0.3 0.5 0 0.6l-9.3 3.6"/>
-                                                </g>
-                                            </g>
-                                        </g>
-                                    </g>
-                                </svg>
-                            </span>
-                            <p class="mb-0">
-                                All sampling is delivered from our supplier in biodegradable packaging.
-                            </p>
-                        </li>
+                                    </svg>
+                                </span>
+                                <p class="mb-0">
+                                    {{ block.settings.sowhatdetails }}
+                                </p>
+                            </li>
+                          {% endcase %}
+                        {% endfor %}
                     </ul>
                 </div>
             </div>
             <div class="row justify-content-center mt-5">
                 <div class="col-md-8 text-center">
                     <p>
-                        For more sustainability & factory information, please see our highlights on instagram
-                        @neuxthelabel, or send us an email at hello@neuxthelabel.com.au
+                        {{ section.settings.sodescription  | escape }}
                     </p>
                 </div>
             </div>
@@ -314,6 +233,36 @@
         "type": "textarea",
         "id": "headerbusiness",
         "label": "HeaderBusiness"
+        },
+        {
+        "type": "textarea",
+        "id": "feedback",
+        "label": "Feedback"
+        },
+        {
+        "type": "text",
+        "id": "headersustainbility",
+        "label": "Sustainbility Header"
+        },
+        {
+        "type": "image_picker",
+        "id": "imagesustainbility",
+        "label": "Image Sustainbility"
+        },
+        {
+        "type": "textarea",
+        "id": "sustainbilitydescription",
+        "label": "Sustainbility Description"
+        },
+        {
+        "type": "text",
+        "id": "sowhatheader",
+        "label": "So What Header"
+        },
+        {
+        "type": "textarea",
+        "id": "sodescription",
+        "label": "So Description"
         }
     ],
 
@@ -326,6 +275,19 @@
                "type": "text",
                "id": "aboutdetails",
                "label": "About Details"
+            }
+           ]
+        }
+    ],
+    "blocks": [
+        {
+           "name": "So What Details",
+           "type": "list",
+           "settings": [
+            {
+               "type": "text",
+               "id": "sowhatdetails",
+               "label": "So What Details"
             }
            ]
         }
