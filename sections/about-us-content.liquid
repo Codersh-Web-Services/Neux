@@ -381,3 +381,44 @@
             </div>
         </div>
     </section>
+
+    
+{% schema %}
+{
+"name": "custom hero image",
+"settings":[ {
+"type": "image_picker",
+"id": "image",
+"label": "Image"
+},
+
+{
+"type": "textarea",
+"id": "description",
+"label": "Description"
+},
+
+],
+"blocks": [
+         {
+           "type": "image",
+           "name": "Image",
+           "settings": [
+             {
+               "type": "image_picker",
+               "id": "urunslidergorsel",
+               "label": "Slider Image",
+               "info": "Slider Image"
+             }
+           ]
+         }
+    ],
+"presets": [
+{
+"name": "custom hero image",
+"category": "Image"
+
+}
+]
+}
+{% endschema %}
