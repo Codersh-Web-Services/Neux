@@ -4,7 +4,6 @@
 {% endcomment %}
 
 {% section 'product-template' %}
-{% section 'product-recommendations' %}
 <div class="yotpo yotpo-main-widget"
 data-product-id="{{ product.id }}"
 data-name="{{ product.title | escape }}"
@@ -14,6 +13,8 @@ data-price="{{ variant.price | money_without_currency }}"
 data-currency="{{ shop.currency }}"
 data-description="{{ product.description | escape }}">
 </div>
+{% section 'product-recommendations' %}
+
 
 <div id="backToCollection"></div>
 
