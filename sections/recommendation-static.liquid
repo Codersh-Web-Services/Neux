@@ -5,7 +5,7 @@
   {%for product in collections["collection-i"].products limit:4 %}
   <div class="rec-product-item">
     <a href="{{product.url}}">
-      <img src="{{product.featured_image | image_url }}" />
+      <img src="{{product.featured_image | image_url : height: 450 }}" />
     </a>
     <p class="title">{{product.title}} </p>
     <p class="price">{{product.price | money}} </p>

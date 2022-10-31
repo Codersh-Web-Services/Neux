@@ -1,27 +1,43 @@
 {
   "current": {
     "color_headings": "#1f2021",
+    "color_secondary": "#eae8df",
+    "color_sale_tag": "#818181",
+    "color_newsletter": "#f6f6f6",
+    "color_drawer_button": "#eae8df",
+    "type_header_family": "cormorant_n6",
     "type_header_base_size": "26px",
-    "type_accent_subheadings": true,
+    "type_header_border_thickness": "1px",
+    "type_accent_family": "serif",
+    "type_accent_subheadings": false,
+    "type_base_family": "cormorant_n4",
+    "type_base_size": "17px",
+    "cart_notes_enable": false,
     "social_facebook_link": "",
     "social_instagram_link": "https:\/\/instagram.com\/neuxthelabel",
     "share_facebook": true,
-    "favicon": "shopify:\/\/shop_images\/png_2.webp",
+    "favicon": "shopify:\/\/shop_images\/DIAMOND-17.png",
     "checkout_logo_image": "shopify:\/\/shop_images\/2x.png",
-    "checkout_accent_color": "#cecece",
-    "checkout_button_color": "#000000",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_heading_font": "Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman'",
+    "checkout_body_font": "Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman'",
+    "checkout_accent_color": "#000000",
+    "checkout_button_color": "#faf7ef",
     "checkout_error_color": "#e32c2b",
     "sections": {
       "header": {
         "type": "header",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/2x.png",
+          "logo": "shopify:\/\/shop_images\/NEUX-01-Primary.png",
           "logo_max_width": 125,
           "header_color": "#000000",
           "search": "modal",
           "main_menu_link_list": "main-menu",
           "drawer_bottom_link_list": "footer",
-          "drawer_search_enable": false,
+          "drawer_search_enable": true,
           "show_announcement": false,
           "home_page_only": true,
           "text": "Announce something here",
@@ -159,18 +175,18 @@
       "footer": {
         "type": "footer",
         "settings": {
-          "diamond_image": "shopify:\/\/shop_images\/png_2_1.webp",
-          "footer_logo": "shopify:\/\/shop_images\/logo.webp",
+          "diamond_image": "shopify:\/\/shop_images\/DIAMOND-17.png",
+          "footer_logo": "shopify:\/\/shop_images\/NEUX_CIRCULAR_LOGO.png",
           "footer_link_list": "neux-world",
           "footer_link_list2": "customer-care",
-          "signupsubhead": "Join our community",
+          "signupsubhead": "JOIN US",
           "signuphead": "Sign up for exclusive access"
         }
       },
       "16564177382e154ec8": {
         "type": "hero-custom",
         "settings": {
-          "image": "shopify:\/\/shop_images\/2.png",
+          "image": "shopify:\/\/shop_images\/gh.webp",
           "header": "collection I.",
           "Subheader": "éclatant"
         }
@@ -185,9 +201,8 @@
         "type": "campaign",
         "settings": {
           "campaign_video_link": "",
-          "text1": "with love",
-          "slider_image": "shopify:\/\/shop_images\/logo_white.png",
-          "bg_image": "shopify:\/\/shop_images\/png.png"
+          "text1": "",
+          "bg_image": "shopify:\/\/shop_images\/cult-gaia-social-fb5c46851a394fda83d90bdf1bd113d6.jpg"
         }
       },
       "1656481026a3473a63": {
@@ -225,31 +240,31 @@
         "type": "product-recommendations",
         "settings": {
           "show_product_recommendations": true,
-          "heading": "you may alsos like"
+          "heading": "YOU MAY ALSO LIKE"
         }
       },
       "recommendation-static": {
         "type": "recommendation-static",
         "settings": {
           "text_align": "center",
-          "text_size": "2"
+          "text_size": "1"
         }
       },
       "password-header": {
         "type": "password-header",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/logo_white.png",
-          "logo_max_width": "200"
+          "logo": "shopify:\/\/shop_images\/NEUX-01-Primary.png",
+          "logo_max_width": "300"
         }
       },
       "password-content": {
         "type": "password-content",
         "settings": {
-          "title": "Opening Soon",
+          "title": "",
           "newsletter_enable": true,
-          "newsletter_form_heading": "Be the first to know when we launch.",
-          "newsletter_form_subheading": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>",
-          "newsletter_placeholder": "Email address",
+          "newsletter_form_heading": "Be the first to know.",
+          "newsletter_form_subheading": "",
+          "newsletter_placeholder": "Sign up for exclusive access.",
           "newsletter_button_text": "Submit",
           "show_share_buttons": true,
           "social_message": ""
