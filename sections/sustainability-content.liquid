@@ -9,10 +9,11 @@
                 <div class="col-md-6">
                     <div class="makers-content">
                         <div class="img-wrap">
-                            <img src="images/makers-img-1.png" alt="image">
+                            {%- assign img_url = section.settings.image | image_url -%}
+                            <img src="{{ img_url }}" alt="{{ section.settings.image.alt | escape }}">
                         </div>
                         <h3 class="mt-3">
-                            About Our Factory
+                            {{ section.settings.header  | escape }}
                         </h3>
                         <ul>
                             <li>
@@ -142,16 +143,11 @@
                 <div class="col-md-6">
                     <div class="makers-content">
                         <div class="img-wrap">
-                            <img src="images/makers-img-2.png" alt="image">
+                            {%- assign img_url = section.settings.imagebusiness | image_url -%}
+                            <img src="{{ img_url }}" alt="{{ section.settings.imagebusiness.alt | escape }}">
                         </div>
                         <p>
-                            The Business Social Compliance Initiative (BSCI) is a non-profit organisation. It was set up
-                            as an initiative of the Foreign Trade Association in response to the debate on how to
-                            achieve convergence in the field of corporate social responsibility. It implements the
-                            principle international labour standards such as International Labour Organisation (ILO)
-                            conventions and the United Nations (UN) Guiding Principles on Business and Human Rights
-                            (UNGPs) and guidelines for the Organisation for Economic Co-operation and Development
-                            (OECD).
+                            {{ section.settings.headerbusiness  | escape }}
                         </p>
                     </div>
                 </div>
@@ -383,3 +379,38 @@
     </section>
 
     
+{% schema %}
+{
+"name": "sustainability page",
+"settings":[ 
+    {
+    "type": "image_picker",
+    "id": "image",
+    "label": "Image"
+    },
+    {
+    "type": "text",
+    "id": "header",
+    "label": "Header"
+    },
+    {
+    "type": "image_picker",
+    "id": "imagebusiness",
+    "label": "ImageBusiness"
+    },
+    {
+    "type": "textarea",
+    "id": "headerbusiness",
+    "label": "HeaderBusiness"
+    }
+
+],
+"presets": [
+{
+"name": "sustainability page",
+"category": "Page"
+
+}
+]
+}
+{% endschema %}
