@@ -16,7 +16,11 @@
                             {{ section.settings.header  | escape }}
                         </h3>
                         <ul>
-                            <li>
+                            {% for block in section.blocks %}
+                              {% case block.type %}
+                                {% when 'slide' %}
+
+                                  <li>
                                 <span>
                                     <svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 49 49" width="49" height="49">
                                         <title>Layer 1</title>
@@ -37,105 +41,13 @@
                                     </svg>
                                 </span>
                                 <p class="mb-0">
-                                    Care, support and opportunities for growth for all
+                                    {{ block.settings.aboutdetails }}
                                 </p>
                             </li>
-                            <li>
-                                <span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 49 49" width="49" height="49">
-                                        <title>Layer 1</title>
-                                        <style>
-                                            .line { fill: none;
-                                                stroke: #000; } 
-                                        </style>
-                                        <g id="Layer 1">
-                                            <g id="&lt;Group&gt;">
-                                                <g id="&lt;Group&gt;">
-                                                    <g id="-e-">
-                                                        <path id="&lt;Path&gt;" class="line" d="m39.4 28.6c-5 2-9 5.9-10.9 10.9l-3.7 9.4c-0.1 0.2-0.5 0.2-0.6 0l-3.6-9.4c-1.9-5-5.9-8.9-10.9-10.9l-9.3-3.6c-0.3-0.1-0.3-0.5 0-0.6l9.3-3.6c5-2 9-5.9 10.9-10.9l3.6-9.4c0.1-0.2 0.5-0.2 0.6 0l3.7 9.4c1.9 5 5.9 8.9 10.9 10.9"/>
-                                                        <path id="&lt;Path&gt;" class="line" d="m39.4 20.8l9.3 3.6c0.3 0.1 0.3 0.5 0 0.6l-9.3 3.6"/>
-                                                    </g>
-                                                </g>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </span>
-                                <p class="mb-0">
-                                    growth for all employees,
-                                </p>
-                            </li>
-                            <li>
-                                <span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 49 49" width="49" height="49">
-                                        <title>Layer 1</title>
-                                        <style>
-                                            .line {fill: none;
-                                                stroke: #000; } 
-                                        </style>
-                                        <g id="Layer 1">
-                                            <g id="&lt;Group&gt;">
-                                                <g id="&lt;Group&gt;">
-                                                    <g id="-e-">
-                                                        <path id="&lt;Path&gt;" class="line" d="m39.4 28.6c-5 2-9 5.9-10.9 10.9l-3.7 9.4c-0.1 0.2-0.5 0.2-0.6 0l-3.6-9.4c-1.9-5-5.9-8.9-10.9-10.9l-9.3-3.6c-0.3-0.1-0.3-0.5 0-0.6l9.3-3.6c5-2 9-5.9 10.9-10.9l3.6-9.4c0.1-0.2 0.5-0.2 0.6 0l3.7 9.4c1.9 5 5.9 8.9 10.9 10.9"/>
-                                                        <path id="&lt;Path&gt;" class="line" d="m39.4 20.8l9.3 3.6c0.3 0.1 0.3 0.5 0 0.6l-9.3 3.6"/>
-                                                    </g>
-                                                </g>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </span>
-                                <p class="mb-0">
-                                    Clean, safe, and organised working conditions,
-                                </p>
-                            </li>
-                            <li>
-                                <span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 49 49" width="49" height="49">
-                                        <title>Layer 1</title>
-                                        <style>
-                                            .line {fill: none;
-                                                stroke: #000; } 
-                                        </style>
-                                        <g id="Layer 1">
-                                            <g id="&lt;Group&gt;">
-                                                <g id="&lt;Group&gt;">
-                                                    <g id="-e-">
-                                                        <path id="&lt;Path&gt;" class="line" d="m39.4 28.6c-5 2-9 5.9-10.9 10.9l-3.7 9.4c-0.1 0.2-0.5 0.2-0.6 0l-3.6-9.4c-1.9-5-5.9-8.9-10.9-10.9l-9.3-3.6c-0.3-0.1-0.3-0.5 0-0.6l9.3-3.6c5-2 9-5.9 10.9-10.9l3.6-9.4c0.1-0.2 0.5-0.2 0.6 0l3.7 9.4c1.9 5 5.9 8.9 10.9 10.9"/>
-                                                        <path id="&lt;Path&gt;" class="line" d="m39.4 20.8l9.3 3.6c0.3 0.1 0.3 0.5 0 0.6l-9.3 3.6"/>
-                                                    </g>
-                                                </g>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </span>
-                                <p class="mb-0">
-                                    immaculate quality and attention to detail ,
-                                </p>
-                            </li>
-                            <li>
-                                <span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 49 49" width="49" height="49">
-                                        <title>Layer 1</title>
-                                        <style>
-                                            .line { fill: none;
-                                                stroke: #000; } 
-                                        </style>
-                                        <g id="Layer 1">
-                                            <g id="&lt;Group&gt;">
-                                                <g id="&lt;Group&gt;">
-                                                    <g id="-e-">
-                                                        <path id="&lt;Path&gt;" class="line" d="m39.4 28.6c-5 2-9 5.9-10.9 10.9l-3.7 9.4c-0.1 0.2-0.5 0.2-0.6 0l-3.6-9.4c-1.9-5-5.9-8.9-10.9-10.9l-9.3-3.6c-0.3-0.1-0.3-0.5 0-0.6l9.3-3.6c5-2 9-5.9 10.9-10.9l3.6-9.4c0.1-0.2 0.5-0.2 0.6 0l3.7 9.4c1.9 5 5.9 8.9 10.9 10.9"/>
-                                                        <path id="&lt;Path&gt;" class="line" d="m39.4 20.8l9.3 3.6c0.3 0.1 0.3 0.5 0 0.6l-9.3 3.6"/>
-                                                    </g>
-                                                </g>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </span>
-                                <p class="mb-0">
-                                    A small, close knit, highly skilled team,
-                                </p>
-                            </li>
+                              {% endcase %}
+                            {% endfor %}
+
+                            
 
                         </ul>
                     </div>
@@ -381,36 +293,49 @@
     
 {% schema %}
 {
-"name": "sustainability page",
-"settings":[ 
-    {
-    "type": "image_picker",
-    "id": "image",
-    "label": "Image"
-    },
-    {
-    "type": "text",
-    "id": "header",
-    "label": "Header"
-    },
-    {
-    "type": "image_picker",
-    "id": "imagebusiness",
-    "label": "ImageBusiness"
-    },
-    {
-    "type": "textarea",
-    "id": "headerbusiness",
-    "label": "HeaderBusiness"
-    }
+    "name": "sustainability page",
+    "settings":[ 
+        {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+        },
+        {
+        "type": "text",
+        "id": "header",
+        "label": "Header"
+        },
+        {
+        "type": "image_picker",
+        "id": "imagebusiness",
+        "label": "ImageBusiness"
+        },
+        {
+        "type": "textarea",
+        "id": "headerbusiness",
+        "label": "HeaderBusiness"
+        }
+    ],
 
-],
-"presets": [
-{
-"name": "sustainability page",
-"category": "Page"
+    "blocks": [
+        {
+           "name": "About Details",
+           "type": "list",
+           "settings": [
+            {
+               "type": "text",
+               "id": "aboutdetails",
+               "label": "About Details"
+            }
+           ]
+        }
+    ],
 
-}
-]
+    "presets": [
+        {
+            "name": "sustainability page",
+            "category": "Page"
+        }
+    ]
 }
 {% endschema %}
