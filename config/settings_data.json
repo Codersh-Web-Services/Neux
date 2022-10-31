@@ -269,6 +269,15 @@
           "show_share_buttons": true,
           "social_message": ""
         }
+      },
+      "sustainability-content": {
+        "type": "sustainability-content",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/makers-img-1.png",
+          "header": "About Our Factory",
+          "imagebusiness": "shopify:\/\/shop_images\/makers-img-2.png",
+          "headerbusiness": "The Business Social Compliance Initiative (BSCI) is a non-profit organisation. It was set up\n                            as an initiative of the Foreign Trade Association in response to the debate on how to\n                            achieve convergence in the field of corporate social responsibility. It implements the\n                            principle international labour standards such as International Labour Organisation (ILO)\n                            conventions and the United Nations (UN) Guiding Principles on Business and Human Rights\n                            (UNGPs) and guidelines for the Organisation for Economic Co-operation and Development\n                            (OECD)."
+        }
       }
     },
     "content_for_index": [
