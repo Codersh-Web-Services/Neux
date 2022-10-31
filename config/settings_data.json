@@ -272,6 +272,17 @@
       },
       "sustainability-content": {
         "type": "sustainability-content",
+        "blocks": {
+          "9edef975-1684-458e-b257-93e6e9d5538c": {
+            "type": "list",
+            "settings": {
+              "aboutdetails": "Care, support and opportunities for growth for all"
+            }
+          }
+        },
+        "block_order": [
+          "9edef975-1684-458e-b257-93e6e9d5538c"
+        ],
         "settings": {
           "image": "shopify:\/\/shop_images\/makers-img-1.png",
           "header": "About Our Factory",
