@@ -269,6 +269,59 @@
           "show_share_buttons": true,
           "social_message": ""
         }
+      },
+      "sustainability-content": {
+        "type": "sustainability-content",
+        "blocks": {
+          "6cfed342-19f2-4021-9ff3-1b5d956e151e": {
+            "type": "list",
+            "settings": {
+              "aboutdetails": "Care, support and opportunities for growth for all"
+            }
+          },
+          "6a8e3750-1f49-46da-b7f8-3856826bbc20": {
+            "type": "list",
+            "settings": {
+              "aboutdetails": "growth for all employees,"
+            }
+          },
+          "b7c2008a-a212-4fa6-8d58-979ca42260d6": {
+            "type": "list",
+            "settings": {
+              "aboutdetails": "Clean, safe, and organised working conditions,"
+            }
+          },
+          "f43ff1b1-67b6-4bec-b859-df35bf5c25fe": {
+            "type": "list",
+            "settings": {
+              "aboutdetails": "immaculate quality and attention to detail ,"
+            }
+          },
+          "bc896341-9bb9-4078-92a8-89a2bb1138b8": {
+            "type": "list",
+            "settings": {
+              "aboutdetails": "A small, close knit, highly skilled team,"
+            }
+          }
+        },
+        "block_order": [
+          "6cfed342-19f2-4021-9ff3-1b5d956e151e",
+          "6a8e3750-1f49-46da-b7f8-3856826bbc20",
+          "b7c2008a-a212-4fa6-8d58-979ca42260d6",
+          "f43ff1b1-67b6-4bec-b859-df35bf5c25fe",
+          "bc896341-9bb9-4078-92a8-89a2bb1138b8"
+        ],
+        "settings": {
+          "image": "shopify:\/\/shop_images\/makers-img-1.png",
+          "header": "About Our Factory",
+          "imagebusiness": "shopify:\/\/shop_images\/makers-img-2.png",
+          "headerbusiness": "The Business Social Compliance Initiative (BSCI) is a non-profit organisation. It was set up as an initiative of the Foreign Trade Association in response to the debate on how to achieve convergence in the field of corporate social responsibility. It implements the principle international labour standards such as International Labour Organisation (ILO) conventions and the United Nations (UN) Guiding Principles on Business and Human Rights (UNGPs) and guidelines for the Organisation for Economic Co-operation and Development (OECD).",
+          "feedback": "Thank you Wallace, June, and Ann, for your contributions with the development of Neux. I appreciate your hard work and dedication every day.",
+          "headersustainbility": "SUSTAINBILITY",
+          "sustainbilitydescription": "The Business Social Compliance Initiative (BSCI) is a non-profit organisation. It was set up as an initiative of the Foreign Trade Association in response to the debate on how to achieve convergence in the field of corporate social responsibility. It implements the principle international labour standards such as International Labour Organisation (ILO) conventions and the United Nations (UN) Guiding Principles on Business and Human Rights (UNGPs) and guidelines for the Organisation for Economic Co-operation and Development (OECD).",
+          "sowhatheader": "SO, WHAT WE ARE DOING?",
+          "sodescription": "For more sustainability & factory information, please see our highlights on instagram @neuxthelabel, or send us an email at hello@neuxthelabel.com.au"
+        }
       }
     },
     "content_for_index": [
