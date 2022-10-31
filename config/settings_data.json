@@ -276,31 +276,55 @@
           "9edef975-1684-458e-b257-93e6e9d5538c": {
             "type": "list",
             "settings": {
-              "aboutdetails": "Care, support and opportunities for growth for all"
+              "sowhatdetails": ""
             }
           },
           "8aea6268-13f1-40cd-bac7-d3760eebd710": {
             "type": "list",
             "settings": {
-              "aboutdetails": "growth for all employees,"
+              "sowhatdetails": ""
             }
           },
           "b4a27cc2-8915-4899-80a3-2748dd2b9e76": {
             "type": "list",
             "settings": {
-              "aboutdetails": "Clean, safe, and organised working conditions,"
+              "sowhatdetails": ""
             }
           },
           "1d4c3ef0-c48c-430b-9781-a81b2aa67377": {
             "type": "list",
             "settings": {
-              "aboutdetails": "immaculate quality and attention to detail ,"
+              "sowhatdetails": ""
             }
           },
           "5e132697-c279-4fb6-b4c0-61d751c81836": {
             "type": "list",
             "settings": {
-              "aboutdetails": "A small, close knit, highly skilled team,"
+              "sowhatdetails": ""
+            }
+          },
+          "8156d012-8002-4d37-a767-d70a4887c2ea": {
+            "type": "list",
+            "settings": {
+              "sowhatdetails": "Produce in small, limited drops - we only order minimums. We are not a fast fashion brand."
+            }
+          },
+          "166a9857-4a90-4fa4-92b1-0c8efff4e346": {
+            "type": "list",
+            "settings": {
+              "sowhatdetails": "Preference the use of natural fibres such as rayons, silks and cottons where feasable."
+            }
+          },
+          "9c6c9f04-cbee-4938-8b30-ec887b23964e": {
+            "type": "list",
+            "settings": {
+              "sowhatdetails": "High quality finishings such as french seaming and pre-shrinking fabric to ensure longevity of garment life. We encourage you to let your friends borrow, share and re-sell garments."
+            }
+          },
+          "970070f0-fc5b-411c-ad3a-d492f6823ae1": {
+            "type": "list",
+            "settings": {
+              "sowhatdetails": "All sampling is delivered from our supplier in biodegradable packaging."
             }
           }
         },
@@ -309,13 +333,23 @@
           "8aea6268-13f1-40cd-bac7-d3760eebd710",
           "b4a27cc2-8915-4899-80a3-2748dd2b9e76",
           "1d4c3ef0-c48c-430b-9781-a81b2aa67377",
-          "5e132697-c279-4fb6-b4c0-61d751c81836"
+          "5e132697-c279-4fb6-b4c0-61d751c81836",
+          "8156d012-8002-4d37-a767-d70a4887c2ea",
+          "166a9857-4a90-4fa4-92b1-0c8efff4e346",
+          "9c6c9f04-cbee-4938-8b30-ec887b23964e",
+          "970070f0-fc5b-411c-ad3a-d492f6823ae1"
         ],
         "settings": {
           "image": "shopify:\/\/shop_images\/makers-img-1.png",
           "header": "About Our Factory",
           "imagebusiness": "shopify:\/\/shop_images\/makers-img-2.png",
-          "headerbusiness": "The Business Social Compliance Initiative (BSCI) is a non-profit organisation. It was set up\n                            as an initiative of the Foreign Trade Association in response to the debate on how to\n                            achieve convergence in the field of corporate social responsibility. It implements the\n                            principle international labour standards such as International Labour Organisation (ILO)\n                            conventions and the United Nations (UN) Guiding Principles on Business and Human Rights\n                            (UNGPs) and guidelines for the Organisation for Economic Co-operation and Development\n                            (OECD)."
+          "headerbusiness": "The Business Social Compliance Initiative (BSCI) is a non-profit organisation. It was set up\n                            as an initiative of the Foreign Trade Association in response to the debate on how to\n                            achieve convergence in the field of corporate social responsibility. It implements the\n                            principle international labour standards such as International Labour Organisation (ILO)\n                            conventions and the United Nations (UN) Guiding Principles on Business and Human Rights\n                            (UNGPs) and guidelines for the Organisation for Economic Co-operation and Development\n                            (OECD).",
+          "feedback": "Thank you Wallace, June, and Ann, for your contributions with the development of Neux. I appreciate your hard work and dedication every day.",
+          "headersustainbility": "SUSTAINBILITY",
+          "imagesustainbility": "shopify:\/\/shop_images\/sustainbility-img.png",
+          "sustainbilitydescription": "The Business Social Compliance Initiative (BSCI) is a non-profit organisation. It was set up as an initiative of the Foreign Trade Association in response to the debate on how to achieve convergence in the field of corporate social responsibility. It implements the principle international labour standards such as International Labour Organisation (ILO) conventions and the United Nations (UN) Guiding Principles on Business and Human Rights (UNGPs) and guidelines for the Organisation for Economic Co-operation and Development (OECD).",
+          "sowhatheader": "SO, WHAT WE ARE DOING?",
+          "sodescription": "For more sustainability & factory information, please see our highlights on instagram @neuxthelabel, or send us an email at hello@neuxthelabel.com.au"
         }
       }
     },
