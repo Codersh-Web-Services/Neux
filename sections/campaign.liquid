@@ -12,9 +12,11 @@
     <div class="text-overlay">
     <p>{{ section.settings.text1 }}</p>
     <div class="logo-text-slider"> 
+      {% if  section.settings.slider_image %}}
     {% for i in (1..30) %}
     <img  loading="lazy" width="354" height="101" src="{{ section.settings.slider_image | image_url }}" />
     {% endfor %}
+        {% endif %}}
     </div>
     </div>
     </div>

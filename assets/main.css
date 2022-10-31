@@ -4,6 +4,9 @@ p.hero__subtitle {
   color: #fff;
   text-align: center;
 }
+h2.hero__title{
+  font-weight: 500;
+}
 footer input[type="email"],
 footer input[type="submit"] {
   background-color: #fff;
@@ -139,9 +142,12 @@ a.shop-home {
   display: block;
   margin: auto;
   text-align: center;
-  font-size: 2.1rem;
+  font-size: 1.1rem;
+  width: fit-content;
+  padding: 0 2rem;
+  border: 1px solid black;
   font-family: Branch;
-  font-weight: 600;
+  font-weight: 400;
 }
 .campaign_wrapper .bg-image,
 .campaign_wrapper video {
@@ -180,6 +186,7 @@ form#contact_form input.btn.right {
 }
 .footer-logo {
   width: 140px;
+  height: auto;
 }
 footer input[type="submit"] {
   margin-top: 26px;
@@ -197,7 +204,6 @@ ul.no-bullets.site-footer__linklist {
   font-family: Branch;
 }
 .grid__item.one-fifth {
-  font-size: 1.2rem;
   text-transform: uppercase;
 }
 .social-icon {
@@ -215,7 +221,7 @@ footer.site-footer .container-fluid {
   margin-top: 2.5rem;
 }
 .social-icon img {
-  padding-left: 15px;
+  margin-left: 15px;
 }
 .grid-product__sizes,
 .grid-product__wrapper:hover .grid-product__price,
@@ -293,6 +299,20 @@ footer.site-footer .container-fluid {
   line-height: normal;
   letter-spacing: 0.1rem;
 }
+.product-recommendations .section-header, .product-recommendations .section-header h2 {
+    margin: 0;
+}
+.product-recommendations .swiper {
+    margin: 0.5rem 2rem 0;
+}
+
+.product-recommendations .section-header hr{
+    display: none;
+}
+
+#CollectionSection .section-header {
+    padding: 0 2rem;
+}
 .grid-product__wrapper:hover .grid-product__sizes {
   display: block;
 }
@@ -311,6 +331,10 @@ footer.site-footer .container-fluid {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.product-recommendations h2 {
+    font-size: 1em;
+    font-weight: 100;
 }
 .accordion-button {
   padding: 10px;
@@ -334,10 +358,15 @@ h1.product-single__title {
   font-size: 2.6rem;
   font-family: Branch;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 500;
+  font-style: italic;
   letter-spacing: 0.2rem;
   line-height: normal;
   margin: 0 0 10px;
+}
+.rec-products-wrapper {
+    flex-wrap: nowrap;
+
 }
 @media (max-width: 1400px) {
   .product-single__media {
@@ -348,10 +377,20 @@ h1.product-single__title {
   .hero__image_custom img {
     width: 100%;
     object-fit: cover;
-    height: 100vh;
+    height: auto;
   }
+  #CollectionSection .section-header {
+    padding: 0 1rem;
+}
+  .swiper {
+    margin: 0 1rem 0 1rem;
+}
+  .rec-products-wrapper {
+    flex-wrap: wrap;
+
+}
   .hero__image_custom {
-    height: 100vh;
+    height: auto;
   }
   .cart_navbar {
     display: none;
@@ -370,7 +409,7 @@ h1.product-single__title {
     animation: 10s linear infinite slide-text;
   }
   .logo-text-slider img {
-    margin-right: 49px;
+    margin-right: 25px;
     width: 105px;
     height: auto;
   }
@@ -383,6 +422,7 @@ h1.product-single__title {
 @media (max-width: 870px) {
   h2.hero__title {
     font-size: 5rem;
+    
   }
   p.hero__subtitle {
     font-size: 32px;
