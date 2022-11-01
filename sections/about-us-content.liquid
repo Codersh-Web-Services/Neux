@@ -87,7 +87,7 @@
                     {% case block.type %}
                     {% when 'slide' %}
                         <div class="work-img mb-3" {{ block.shopify_attributes }}>
-                            {{ block.settings.aboutimage | image_tag }}
+                            {{ block.settings.aboutimage | image_url: width: 2048 | image_tag }}
                         </div>
                     {% endcase %}
                 {% endfor %}
