@@ -269,6 +269,54 @@
           "show_share_buttons": true,
           "social_message": ""
         }
+      },
+      "about-us-content": {
+        "type": "about-us-content",
+        "blocks": {
+          "0bc85dc0-f6e1-429e-9157-1ac5ea1fa275": {
+            "type": "list",
+            "settings": {
+              "aboutdetails": "Considered design choices for different body types (adjustable straps, stretchy fabrics, bust cups for support)"
+            }
+          },
+          "5a0f292f-7c7e-45ad-a3c6-b1675d709adb": {
+            "type": "list",
+            "settings": {
+              "aboutdetails": "We appreciate you as a consumer. We want you to feel confident and empowered in your Neux garments. You are not just a number to us. We welcome and appreciate any feedback."
+            }
+          },
+          "7160fe97-bf93-43bd-ada2-fa07a1b8b51b": {
+            "type": "list",
+            "settings": {
+              "aboutdetails": "We offer sizes 6-16. We aim to increase this size range as our brand grows."
+            }
+          },
+          "01fabe25-2b47-4dc5-b9cf-13dd6013075e": {
+            "type": "list",
+            "settings": {
+              "aboutdetails": "We pledge to always be a transparent, ethical, and sustainable brand."
+            }
+          },
+          "c979a32a-34a0-4675-bd12-19d47c30b7d1": {
+            "type": "list",
+            "settings": {
+              "aboutdetails": "It is important to us that women feel represented, seen, and heard."
+            }
+          }
+        },
+        "block_order": [
+          "0bc85dc0-f6e1-429e-9157-1ac5ea1fa275",
+          "5a0f292f-7c7e-45ad-a3c6-b1675d709adb",
+          "7160fe97-bf93-43bd-ada2-fa07a1b8b51b",
+          "01fabe25-2b47-4dc5-b9cf-13dd6013075e",
+          "c979a32a-34a0-4675-bd12-19d47c30b7d1"
+        ],
+        "settings": {
+          "pagetitle": "ABOUT US",
+          "image": "shopify:\/\/shop_images\/about-im-1.png",
+          "aboutcontent": "Hello!\n\nMy name is Daisy Molyneux, sole owner and designer of Neux.\n\nStarting a fashion label was something I always knew I was going to do. It has been a passion of mine ever since I can remember.\n\nAfter trademarking the ‘Neux’ name in 2021, and sketching designs away in my notepad, I decided it was the time to start the journey. After landing an amazing job post-uni at Spec to Sample in Melbourne, I was given the opportunity to access some amazing ethical suppliers and resources (shout out to my mentor and boss lady Dani) which kick-started this venture into action.\n\nThis brand was made by a woman, inspired by women. I love women. I think we are such strong, beautiful, and determined beings. We all deserve to feel loved, appreciated, fulfilled. and have access to equal opportunity. Your life matters, your dreams matter, and you matter.",
+          "aboutdescription": "For more behind the scenes content, please see our highlights on instagram @neuxthelabel, or visit our TikTok"
+        }
       }
     },
     "content_for_index": [
