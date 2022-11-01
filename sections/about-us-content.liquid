@@ -5,14 +5,14 @@
                 <h1>{{ section.settings.pagetitle  | escape }}</h1>
             </div>
         </div>
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col-sm-12 col-md-4 text-center">
                 <div class="img-wrap">
                     {%- assign img_url = section.settings.image | image_url -%}
                     <img src="{{ img_url }}" alt="{{ section.settings.image.alt | escape }}">
                 </div>
             </div>
-            <div class="col-sm-12 col-md-7">
+            <div class="col-sm-12 col-md-5 col-xl-6">
                 <div class="about-content">
                     <span class="mt-4"></span>
                     <p>
