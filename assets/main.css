@@ -578,6 +578,7 @@ h1.product-single__title {
 
 .about-content p {
     font-weight: 500;
+    font-kerning: none;
 }
 
 .our-work .work-img img {
