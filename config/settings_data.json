@@ -385,6 +385,18 @@
             "settings": {
               "aboutdetails": "It is important to us that women feel represented, seen, and heard."
             }
+          },
+          "5c5dd794-af56-4904-94da-e4286ce1e3d2": {
+            "type": "slide",
+            "settings": {
+              "aboutimage": "shopify:\/\/shop_images\/about-im-2.png"
+            }
+          },
+          "2713c81e-1357-4200-afbd-9ce4973d3b3e": {
+            "type": "slide",
+            "settings": {
+              "aboutimage": "shopify:\/\/shop_images\/about-im-3.png"
+            }
           }
         },
         "block_order": [
@@ -392,7 +404,9 @@
           "0e71d9bd-c663-47b2-a324-a289883354e9",
           "b2295dfc-c83d-41ff-9909-34371bd36945",
           "9d620d3d-e2c4-412e-8a8a-ff0c2418744d",
-          "16a1bfeb-452b-4459-806d-36fb6241d278"
+          "16a1bfeb-452b-4459-806d-36fb6241d278",
+          "5c5dd794-af56-4904-94da-e4286ce1e3d2",
+          "2713c81e-1357-4200-afbd-9ce4973d3b3e"
         ],
         "settings": {
           "pagetitle": "ABOUT US",
