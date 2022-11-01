@@ -73,6 +73,10 @@
             </div>
             <div class="row">
                 <div class="col-md-12 d-flex justify-content-center">
+                    <div class="img-wrap">
+                        {%- assign img_url = section.settings.image | image_url -%}
+                        <img src="{{ img_url }}" alt="{{ section.settings.image.alt | escape }}">
+                    </div>
                     <div class="custom-box">
 
                     </div>
