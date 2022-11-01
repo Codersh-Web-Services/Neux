@@ -50,13 +50,14 @@
             </div>
             <div class="col-md-6">
                 <div class="makers-content">
+                    <p>
+                        {{ section.settings.headerbusiness  | escape }}
+                    </p>
                     <div class="img-wrap">
                         {%- assign img_url = section.settings.imagebusiness | image_url -%}
                         <img src="{{ img_url }}" alt="{{ section.settings.imagebusiness.alt | escape }}">
                     </div>
-                    <p>
-                        {{ section.settings.headerbusiness  | escape }}
-                    </p>
+                    
                 </div>
             </div>
         </div>
