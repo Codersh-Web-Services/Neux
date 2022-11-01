@@ -498,12 +498,17 @@ h1.product-single__title {
 
 /* <-------- MAKERS SECTION END --------> */
 
+.feedback .img-wrap {
+  margin: 3rem 0;
+}
+
 .feedback .custom-box {
     height: 500px;
    /* width: 500px;
     background: #2222;*/
     margin: 3rem 0;
     position: relative;
+    display: none;
 }
 
 .feedback #Left {
