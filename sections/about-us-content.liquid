@@ -16,7 +16,7 @@
                 <div class="about-content">
                     <span class="mt-4"></span>
                     <p>
-                        {{ section.settings.aboutcontent  | escape }}
+                        {{ section.settings.aboutcontent }}
                     </p>
                     <ul>
                         {% for block in section.blocks %}
@@ -82,32 +82,26 @@
 <section class="our-work">
     <div class="container">
         <div class="row justify-content-center">
-            
-                {% for block in section.blocks %}
-                    {% case block.type %}
-                    {% when 'slide' %}
-                    <div class="col-12 col-md-4 d-flex flex-column mb-3">
-                        <div class="work-img mb-3" {{ block.shopify_attributes }}>
-                            {{ block.settings.aboutimage | image_url: width: 2048 | image_tag }}
-                        </div>
-                    </div>
-                    {% endcase %}
-                {% endfor %}
-                <!-- <div class="work-img mb-3">
-                    <img src="images/about-im-2.png" alt="image">
-                </div>
-                <div class="work-img">
-                    <img src="images/about-im-4.png" alt="image">
-                </div> -->
-            
-            <!-- <div class="col-12 col-md-4 d-flex flex-column mb-3">
+            <div class="col-12 col-md-4 d-flex flex-column mb-3">
                 <div class="work-img mb-3">
-                    <img src="images/about-im-3.png" alt="image">
+                    {%- assign img_url = section.settings.aboutimage1 | image_url -%}
+                    <img src="{{ img_url }}" alt="{{ section.settings.aboutimage-1.alt | escape }}">
                 </div>
                 <div class="work-img">
-                    <img src="images/about-im-5.png" alt="image">
+                    {%- assign img_url = section.settings.aboutimage2 | image_url -%}
+                    <img src="{{ img_url }}" alt="{{ section.settings.aboutimage2.alt | escape }}">
                 </div>
-            </div> -->
+            </div>
+            <div class="col-12 col-md-4 d-flex flex-column mb-3">
+                <div class="work-img mb-3">
+                    {%- assign img_url = section.settings.aboutimage3 | image_url -%}
+                    <img src="{{ img_url }}" alt="{{ section.settings.aboutimage3.alt | escape }}">
+                </div>
+                <div class="work-img">
+                    {%- assign img_url = section.settings.aboutimage4 | image_url -%}
+                    <img src="{{ img_url }}" alt="{{ section.settings.aboutimage4.alt | escape }}">
+                </div>
+            </div>
         </div>
         <div class="row justify-content-center">
             <div class="col-12 col-md-6 text-center">
@@ -134,15 +128,35 @@
         "label": "Image"
         },
         {
-        "type": "textarea",
+        "type": "html",
         "id": "aboutcontent",
         "label": "About Content"
         },
         {
-        "type": "textarea",
-        "id": "aboutdescription",
-        "label": "About Description"
-        }
+            "type": "textarea",
+            "id": "aboutdescription",
+            "label": "About Description"
+        },
+        {
+           "type": "image_picker",
+           "id": "aboutimage1",
+           "label": "About Image 1"
+        },
+        {
+           "type": "image_picker",
+           "id": "aboutimage2",
+           "label": "About Image 2"
+        },
+        {
+           "type": "image_picker",
+           "id": "aboutimage3",
+           "label": "About Image 3"
+        },
+        {
+           "type": "image_picker",
+           "id": "aboutimage4",
+           "label": "About Image 4"
+        },
     ],
 
      "blocks": [
@@ -154,17 +168,6 @@
                "type": "text",
                "id": "aboutdetails",
                "label": "About Details"
-            }
-           ]
-        },
-        {
-           "name": "About Image",
-           "type": "slide",
-           "settings": [
-            {
-               "type": "image_picker",
-               "id": "aboutimage",
-               "label": "About Image"
             }
            ]
         }
