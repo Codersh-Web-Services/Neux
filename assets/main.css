@@ -654,10 +654,10 @@ h1.product-single__title {
         margin-bottom: 1.5rem;
     }
 
-    .feedback .custom-box {
+    /*.feedback .custom-box {
         height: 400px;
         width: 400px;
-    }
+    }*/
 
     .feedback #Left {
         left: 0;
@@ -710,14 +710,18 @@ h1.product-single__title {
         padding: 0 2rem;
     }
 
-    .feedback svg {
-        width: 70px;
+    .feedback .img-wrap {
+      margin: 1.5rem 0;
     }
 
-    .feedback .custom-box {
+    .feedback svg {
+        width: 50px;
+    }
+
+   /* .feedback .custom-box {
         height: 300px;
         width: 300px;
-    }
+    }*/
 
     .feedback #Left {
         left: -5%;
