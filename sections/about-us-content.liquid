@@ -82,13 +82,15 @@
 <section class="our-work">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-12 col-md-4 d-flex flex-column mb-3">
+            
                 {% for block in section.blocks %}
                     {% case block.type %}
                     {% when 'slide' %}
+                    <div class="col-12 col-md-4 d-flex flex-column mb-3">
                         <div class="work-img mb-3" {{ block.shopify_attributes }}>
                             {{ block.settings.aboutimage | image_url: width: 2048 | image_tag }}
                         </div>
+                    </div>
                     {% endcase %}
                 {% endfor %}
                 <!-- <div class="work-img mb-3">
@@ -97,7 +99,7 @@
                 <div class="work-img">
                     <img src="images/about-im-4.png" alt="image">
                 </div> -->
-            </div>
+            
             <!-- <div class="col-12 col-md-4 d-flex flex-column mb-3">
                 <div class="work-img mb-3">
                     <img src="images/about-im-3.png" alt="image">
