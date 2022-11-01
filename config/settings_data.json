@@ -321,6 +321,89 @@
           "aboutimage4": "shopify:\/\/shop_images\/about-im-5.png",
           "aboutdescription": "For more behind the scenes content, please see our highlights on instagram @neuxthelabel, or visit our TikTok"
         }
+      },
+      "sustainability-content": {
+        "type": "sustainability-content",
+        "blocks": {
+          "a7f10bf5-2e67-4201-b930-307e1b552839": {
+            "type": "list",
+            "settings": {
+              "aboutdetails": "Care, support and opportunities for growth for all"
+            }
+          },
+          "b9eb0a9e-1f34-4c8e-bd81-1863eef7875f": {
+            "type": "list",
+            "settings": {
+              "aboutdetails": "growth for all employees,"
+            }
+          },
+          "185367a9-3dfb-4d08-bcd5-066b0ce259f5": {
+            "type": "list",
+            "settings": {
+              "aboutdetails": "Clean, safe, and organised working conditions,"
+            }
+          },
+          "6d908850-6af7-4f52-ba72-c48deb9cba19": {
+            "type": "list",
+            "settings": {
+              "aboutdetails": "immaculate quality and attention to detail ,"
+            }
+          },
+          "07bb6266-2729-4480-b847-550414efec9e": {
+            "type": "list",
+            "settings": {
+              "aboutdetails": "A small, close knit, highly skilled team,"
+            }
+          },
+          "9e02847b-0c7d-42b4-a530-40d21454e154": {
+            "type": "list-2",
+            "settings": {
+              "sowhatdetails": "Produce in small, limited drops - we only order minimums. We are not a fast fashion brand."
+            }
+          },
+          "333b48e8-b447-4f70-a909-86398152eb8e": {
+            "type": "list-2",
+            "settings": {
+              "sowhatdetails": "Preference the use of natural fibres such as rayons, silks and cottons where feasable."
+            }
+          },
+          "d7fd4894-52b2-4bc5-8a54-5db70e3c4416": {
+            "type": "list-2",
+            "settings": {
+              "sowhatdetails": "High quality finishings such as french seaming and pre-shrinking fabric to ensure longevity of garment life. We encourage you to let your friends borrow, share and re-sell garments."
+            }
+          },
+          "de4e7c0b-3221-449b-830d-5dc21ca3201c": {
+            "type": "list-2",
+            "settings": {
+              "sowhatdetails": "All sampling is delivered from our supplier in biodegradable packaging."
+            }
+          }
+        },
+        "block_order": [
+          "a7f10bf5-2e67-4201-b930-307e1b552839",
+          "b9eb0a9e-1f34-4c8e-bd81-1863eef7875f",
+          "185367a9-3dfb-4d08-bcd5-066b0ce259f5",
+          "6d908850-6af7-4f52-ba72-c48deb9cba19",
+          "07bb6266-2729-4480-b847-550414efec9e",
+          "9e02847b-0c7d-42b4-a530-40d21454e154",
+          "333b48e8-b447-4f70-a909-86398152eb8e",
+          "d7fd4894-52b2-4bc5-8a54-5db70e3c4416",
+          "de4e7c0b-3221-449b-830d-5dc21ca3201c"
+        ],
+        "settings": {
+          "pagetitle": "MEET OUR MAKERS",
+          "image": "shopify:\/\/shop_images\/makers-img-1.png",
+          "header": "About Our Factory",
+          "imagebusiness": "shopify:\/\/shop_images\/makers-img-2.png",
+          "headerbusiness": "The Business Social Compliance Initiative (BSCI) is a non-profit organisation. It was set up as an initiative of the Foreign Trade Association in response to the debate on how to achieve convergence in the field of corporate social responsibility. It implements the principle international labour standards such as International Labour Organisation (ILO) conventions and the United Nations (UN) Guiding Principles on Business and Human Rights (UNGPs) and guidelines for the Organisation for Economic Co-operation and Development (OECD).",
+          "feedback": "Thank you Wallace, June, and Ann, for your contributions with the development of Neux. I appreciate your hard work and dedication every day.",
+          "headersustainbility": "SUSTAINBILITY",
+          "imagesustainbility": "shopify:\/\/shop_images\/sustainbility-img_115e4bf8-2bfc-43b8-91c7-8bb1a49aae5d.png",
+          "sustainbilitydescription": "The Business Social Compliance Initiative (BSCI) is a non-profit organisation. It was set up as an initiative of the Foreign Trade Association in response to the debate on how to achieve convergence in the field of corporate social responsibility. It implements the principle international labour standards such as International Labour Organisation (ILO) conventions and the United Nations (UN) Guiding Principles on Business and Human Rights (UNGPs) and guidelines for the Organisation for Economic Co-operation and Development (OECD).",
+          "sowhatheader": "SO, WHAT WE ARE DOING?",
+          "sodescription": "For more sustainability & factory information, please see our highlights on instagram @neuxthelabel, or send us an email at hello@neuxthelabel.com.au"
+        }
       }
     },
     "content_for_index": [
