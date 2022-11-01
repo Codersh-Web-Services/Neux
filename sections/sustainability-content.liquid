@@ -74,8 +74,8 @@
             <div class="row">
                 <div class="col-md-12 d-flex justify-content-center">
                     <div class="img-wrap">
-                        {%- assign img_url = section.settings.image | image_url -%}
-                        <img src="{{ img_url }}" alt="{{ section.settings.image.alt | escape }}">
+                        {%- assign img_url = section.settings.boximage | image_url -%}
+                        <img src="{{ img_url }}" alt="{{ section.settings.boximage.alt | escape }}">
                     </div>
                     <div class="custom-box">
 
@@ -248,6 +248,11 @@
         "type": "textarea",
         "id": "feedback",
         "label": "Feedback"
+        },
+        {
+        "type": "image_picker",
+        "id": "boximage",
+        "label": "Box Image"
         },
         {
         "type": "text",
