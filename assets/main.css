@@ -447,7 +447,13 @@ h1.product-single__title {
 }
 
 
-/* Sustainability us page */
+/* Sustainability page */
+
+.makers p,
+.sustainbility p,
+.feedback p {
+    font-weight: 500;
+}
 
 .makers {
     padding: 2rem 0;
@@ -456,6 +462,7 @@ h1.product-single__title {
 .makers h1 {
     font-size: 6rem;
     text-transform: uppercase;
+    margin-bottom: 1.5rem;
 }
 
 .makers-content .img-wrap img {
@@ -464,22 +471,26 @@ h1.product-single__title {
 }
 
 .makers-content ul,
-.sustainbility ul {
+.sustainbility ul,
+.about-content ul {
     padding-left: 0;
 }
 
 .makers-content ul li,
-.sustainbility ul li {
+.sustainbility ul li,
+.about-content ul li {
     display: flex;
 }
 
 .makers-content span,
-.sustainbility span {
+.sustainbility span,
+.about-content span {
     display: inline-block;
 }
 
 .makers-content span svg,
-.sustainbility span svg {
+.sustainbility span svg,
+.about-content span svg {
     height: 16px;
     width: 16px;
     margin-right: 0.6rem;
@@ -492,6 +503,30 @@ h1.product-single__title {
     width: 500px;
     background: #2222;
     margin: 3rem 0;
+    position: relative;
+}
+
+.feedback #Left {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.feedback #Right {
+    position: absolute;
+    right: 18%;
+    top: 30%;
+    transform: translate(0, -50%);
+    width: 17%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+#Right .custom-span {
+    padding-left: 1rem;
 }
 
 .feedback .text {
@@ -504,6 +539,11 @@ h1.product-single__title {
     padding: 3rem 0;
 }
 
+.sustainbility .img-wrap img {
+    height: auto;
+    max-width: 100%;
+}
+
 .sustainbility h2 {
     font-size: 8rem;
     text-transform: uppercase;
@@ -513,4 +553,222 @@ h1.product-single__title {
 .sustainbility h3 {
     font-size: 1.5rem;
     text-transform: uppercase;
+}
+
+/* <-------- SUSTAINBILITY SECTION END --------> */
+
+
+/* <---------- ABOUT-US PAGE CSS STARTS --------> */
+
+.about-us h1 {
+    font-size: 6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.about-us .img-wrap {
+    width: 100%;
+}
+
+.about-us .img-wrap img {
+    height: auto;
+    max-width: 100%;
+}
+
+.about-content p {
+    font-weight: 500;
+}
+
+.our-work .work-img img {
+    height: auto;
+    max-width: 100%;
+}
+
+.our-work p {
+    font-weight: 500;
+    margin-top: 1.3rem;
+}
+
+@media only screen and (max-width:1024px) {
+    .makers h1 {
+        font-size: 4.5rem;
+        text-transform: uppercase;
+    }
+    .sustainbility h2 {
+        font-size: 4.5rem;
+        letter-spacing: 0.3rem;
+    }
+
+    .about-us h1 {
+        font-size: 3rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .feedback #Left {
+        left: 5%;
+    }
+    
+    .feedback #Right {
+        right: 15%;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .makers h1 {
+        font-size: 4.5rem;
+        text-transform: uppercase;
+    }
+    .sustainbility h2 {
+        font-size: 4.5rem;
+        letter-spacing: 0.5rem;
+    }
+
+    .about-us h1 {
+        font-size: 4rem;
+        margin-bottom: 1.5rem;
+    }
+    .our-work p {
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .makers h1 {
+        font-size: 3.5rem;
+        text-transform: uppercase;
+    }
+    .sustainbility h2 {
+        font-size: 3.5rem;
+        letter-spacing: normal;
+    }
+
+    .about-us h1 {
+        font-size: 3rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .feedback .custom-box {
+        height: 400px;
+        width: 400px;
+    }
+
+    .feedback #Left {
+        left: 0;
+        font-size: 0.8rem;
+    }
+    
+    .feedback #Right {
+        right: 0;
+        font-size: 0.95rem;
+    }
+}
+
+@media only screen and (max-width:640px) { 
+    .img-wrap img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:480px) {
+
+    section {
+        padding: 0 2rem;
+    }
+
+    .makers h1 {
+        font-size: 2.5rem;
+        text-transform: uppercase;
+    }
+
+    .sustainbility h2 {
+        font-size: 2.5rem;
+        letter-spacing: normal;
+    }
+
+    .about-us h1 {
+        font-size: 2rem;
+        letter-spacing: normal;
+        margin-bottom: 1rem;
+    }
+
+    .our-work p {
+        margin-top: 0.5rem;
+    }
+
+    .sustainbility {
+        padding: 1rem 2rem;
+    }
+    
+    .makers {
+        padding: 0 2rem;
+    }
+
+    .feedback svg {
+        width: 70px;
+    }
+
+    .feedback .custom-box {
+        height: 300px;
+        width: 300px;
+    }
+
+    .feedback #Left {
+        left: -5%;
+        font-size: 0.8rem;
+    }
+    
+    .feedback #Right {
+        right: -10%;
+        font-size: 0.95rem;
+    }
+}
+
+@media only screen and (max-width:320px) {
+  
+    .makers h1 {
+        font-size: 2.5rem;
+        text-transform: uppercase;
+    }
+    .sustainbility h2 {
+        font-size: 2.5rem;
+        letter-spacing: normal;
+    }
+
+    .about-us h1 {
+        font-size: 2rem;
+        letter-spacing: normal;
+        margin-bottom: 1rem;
+    }
+
+    .feedback .custom-box {
+        height: 250px;
+        width: 250px;
+        background: #2222;
+        margin: 1rem 0;
+        position: relative;
+    }
+
+    .feedback svg {
+        width: 50px;
+    }
+    
+    .feedback #Left {
+        left: -10%;
+        font-size: 0.8rem;
+    }
+    
+    .feedback #Right {
+        right: -17%;
+        font-size: 0.8rem;
+    }
+    
+    #Right .custom-span {
+        padding-left: 0.3rem;
+    }
+
+    .sustainbility h2 {
+        font-size: 2.2rem;
+    }
+
 }

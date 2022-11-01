@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row text-center">
             <div class="col-12">
-                <h1>Meet our makers</h1>
+                <h1>{{ section.settings.pagetitle  | escape }}</h1>
             </div>
         </div>
         <div class="row">
@@ -214,6 +214,11 @@
 {
     "name": "sustainability page",
     "settings":[ 
+        {
+        "type": "text",
+        "id": "pagetitle",
+        "label": "Page Title"
+        },
         {
         "type": "image_picker",
         "id": "image",
