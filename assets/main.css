@@ -500,8 +500,8 @@ h1.product-single__title {
 
 .feedback .custom-box {
     height: 500px;
-    width: 500px;
-    background: #2222;
+   /* width: 500px;
+    background: #2222;*/
     margin: 3rem 0;
     position: relative;
 }
