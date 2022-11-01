@@ -269,6 +269,141 @@
           "show_share_buttons": true,
           "social_message": ""
         }
+      },
+      "about-us-content": {
+        "type": "about-us-content",
+        "blocks": {
+          "0bc85dc0-f6e1-429e-9157-1ac5ea1fa275": {
+            "type": "list",
+            "settings": {
+              "aboutdetails": "Considered design choices for different body types (adjustable straps, stretchy fabrics, bust cups for support)"
+            }
+          },
+          "5a0f292f-7c7e-45ad-a3c6-b1675d709adb": {
+            "type": "list",
+            "settings": {
+              "aboutdetails": "We appreciate you as a consumer. We want you to feel confident and empowered in your Neux garments. You are not just a number to us. We welcome and appreciate any feedback."
+            }
+          },
+          "7160fe97-bf93-43bd-ada2-fa07a1b8b51b": {
+            "type": "list",
+            "settings": {
+              "aboutdetails": "We offer sizes 6-16. We aim to increase this size range as our brand grows."
+            }
+          },
+          "01fabe25-2b47-4dc5-b9cf-13dd6013075e": {
+            "type": "list",
+            "settings": {
+              "aboutdetails": "We pledge to always be a transparent, ethical, and sustainable brand."
+            }
+          },
+          "c979a32a-34a0-4675-bd12-19d47c30b7d1": {
+            "type": "list",
+            "settings": {
+              "aboutdetails": "It is important to us that women feel represented, seen, and heard."
+            }
+          }
+        },
+        "block_order": [
+          "0bc85dc0-f6e1-429e-9157-1ac5ea1fa275",
+          "5a0f292f-7c7e-45ad-a3c6-b1675d709adb",
+          "7160fe97-bf93-43bd-ada2-fa07a1b8b51b",
+          "01fabe25-2b47-4dc5-b9cf-13dd6013075e",
+          "c979a32a-34a0-4675-bd12-19d47c30b7d1"
+        ],
+        "settings": {
+          "pagetitle": "ABOUT US",
+          "image": "shopify:\/\/shop_images\/about-im-1.png",
+          "aboutcontent": "<p>Hello!<\/p><p>My name is Daisy Molyneux, sole owner and designer of Neux.<\/p><p>Starting a fashion label was something I always knew I was going to do. It has been a passion of mine ever since I can remember.<\/p><p>After trademarking the ‘Neux’ name in 2021, and sketching designs away in my notepad, I decided it was the time to start the journey. After landing an amazing job post-uni at Spec to Sample in Melbourne, I was given the opportunity to access some amazing ethical suppliers and resources (shout out to my mentor and boss lady Dani) which kick-started this venture into action.<\/p><p>This brand was made by a woman, inspired by women. I love women. I think we are such strong, beautiful, and determined beings. We all deserve to feel loved, appreciated, fulfilled. and have access to equal opportunity. Your life matters, your dreams matter, and you matter.<\/p>",
+          "aboutimage1": "shopify:\/\/shop_images\/about-im-2.png",
+          "aboutimage2": "shopify:\/\/shop_images\/about-im-4.png",
+          "aboutimage3": "shopify:\/\/shop_images\/about-im-3.png",
+          "aboutimage4": "shopify:\/\/shop_images\/about-im-5.png",
+          "aboutdescription": "For more behind the scenes content, please see our highlights on instagram @neuxthelabel, or visit our TikTok"
+        }
+      },
+      "sustainability-content": {
+        "type": "sustainability-content",
+        "blocks": {
+          "a7f10bf5-2e67-4201-b930-307e1b552839": {
+            "type": "list",
+            "settings": {
+              "aboutdetails": "Care, support and opportunities for growth for all"
+            }
+          },
+          "b9eb0a9e-1f34-4c8e-bd81-1863eef7875f": {
+            "type": "list",
+            "settings": {
+              "aboutdetails": "growth for all employees,"
+            }
+          },
+          "185367a9-3dfb-4d08-bcd5-066b0ce259f5": {
+            "type": "list",
+            "settings": {
+              "aboutdetails": "Clean, safe, and organised working conditions,"
+            }
+          },
+          "6d908850-6af7-4f52-ba72-c48deb9cba19": {
+            "type": "list",
+            "settings": {
+              "aboutdetails": "immaculate quality and attention to detail ,"
+            }
+          },
+          "07bb6266-2729-4480-b847-550414efec9e": {
+            "type": "list",
+            "settings": {
+              "aboutdetails": "A small, close knit, highly skilled team,"
+            }
+          },
+          "9e02847b-0c7d-42b4-a530-40d21454e154": {
+            "type": "list-2",
+            "settings": {
+              "sowhatdetails": "Produce in small, limited drops - we only order minimums. We are not a fast fashion brand."
+            }
+          },
+          "333b48e8-b447-4f70-a909-86398152eb8e": {
+            "type": "list-2",
+            "settings": {
+              "sowhatdetails": "Preference the use of natural fibres such as rayons, silks and cottons where feasable."
+            }
+          },
+          "d7fd4894-52b2-4bc5-8a54-5db70e3c4416": {
+            "type": "list-2",
+            "settings": {
+              "sowhatdetails": "High quality finishings such as french seaming and pre-shrinking fabric to ensure longevity of garment life. We encourage you to let your friends borrow, share and re-sell garments."
+            }
+          },
+          "de4e7c0b-3221-449b-830d-5dc21ca3201c": {
+            "type": "list-2",
+            "settings": {
+              "sowhatdetails": "All sampling is delivered from our supplier in biodegradable packaging."
+            }
+          }
+        },
+        "block_order": [
+          "a7f10bf5-2e67-4201-b930-307e1b552839",
+          "b9eb0a9e-1f34-4c8e-bd81-1863eef7875f",
+          "185367a9-3dfb-4d08-bcd5-066b0ce259f5",
+          "6d908850-6af7-4f52-ba72-c48deb9cba19",
+          "07bb6266-2729-4480-b847-550414efec9e",
+          "9e02847b-0c7d-42b4-a530-40d21454e154",
+          "333b48e8-b447-4f70-a909-86398152eb8e",
+          "d7fd4894-52b2-4bc5-8a54-5db70e3c4416",
+          "de4e7c0b-3221-449b-830d-5dc21ca3201c"
+        ],
+        "settings": {
+          "pagetitle": "MEET OUR MAKERS",
+          "image": "shopify:\/\/shop_images\/makers-img-1.png",
+          "header": "About Our Factory",
+          "imagebusiness": "shopify:\/\/shop_images\/makers-img-2.png",
+          "headerbusiness": "The Business Social Compliance Initiative (BSCI) is a non-profit organisation. It was set up as an initiative of the Foreign Trade Association in response to the debate on how to achieve convergence in the field of corporate social responsibility. It implements the principle international labour standards such as International Labour Organisation (ILO) conventions and the United Nations (UN) Guiding Principles on Business and Human Rights (UNGPs) and guidelines for the Organisation for Economic Co-operation and Development (OECD).",
+          "feedback": "Thank you Wallace, June, and Ann, for your contributions with the development of Neux. I appreciate your hard work and dedication every day.",
+          "headersustainbility": "SUSTAINBILITY",
+          "imagesustainbility": "shopify:\/\/shop_images\/sustainbility-img_115e4bf8-2bfc-43b8-91c7-8bb1a49aae5d.png",
+          "sustainbilitydescription": "The Business Social Compliance Initiative (BSCI) is a non-profit organisation. It was set up as an initiative of the Foreign Trade Association in response to the debate on how to achieve convergence in the field of corporate social responsibility. It implements the principle international labour standards such as International Labour Organisation (ILO) conventions and the United Nations (UN) Guiding Principles on Business and Human Rights (UNGPs) and guidelines for the Organisation for Economic Co-operation and Development (OECD).",
+          "sowhatheader": "SO, WHAT WE ARE DOING?",
+          "sodescription": "For more sustainability & factory information, please see our highlights on instagram @neuxthelabel, or send us an email at hello@neuxthelabel.com.au"
+        }
       }
     },
     "content_for_index": [
