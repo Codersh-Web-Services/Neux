@@ -82,7 +82,7 @@
                     </div>
                     <div class="span_group" id="Left">
                             <span>
-                                Me :)
+                                {{ section.settings.lefttitle  | escape }}
                             </span>
                             <svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 159 16"
                                 width="159" height="16">
@@ -115,7 +115,7 @@
                         </div>
                         <div class="span_group" id="Right">
                             <span class="custom-span">
-                                Wallace (owner & manager of our factory in Huzhou, China)
+                                {{ section.settings.righttitle  | escape }}
                             </span>
                             <span>
                             <svg xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 134 133"
@@ -273,6 +273,16 @@
         "type": "image_picker",
         "id": "boximage",
         "label": "Box Image"
+        },
+        {
+        "type": "text",
+        "id": "lefttitle",
+        "label": "Left Title"
+        },
+        {
+        "type": "image_picker",
+        "id": "righttitle",
+        "label": "Right Title"
         },
         {
         "type": "text",
