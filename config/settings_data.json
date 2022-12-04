@@ -32,7 +32,7 @@
     "checkout_heading_font": "Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman'",
     "checkout_body_font": "Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman'",
     "checkout_accent_color": "#000000",
-    "checkout_button_color": "#faf7ef",
+    "checkout_button_color": "#eae8df",
     "checkout_error_color": "#e32c2b",
     "sections": {
       "header": {
