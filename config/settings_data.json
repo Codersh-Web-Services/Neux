@@ -1,5 +1,6 @@
 {
   "current": {
+    "color_body_bg": "#ffffff",
     "color_headings": "#1f2021",
     "color_button_text": "#f6f6f6",
     "color_primary": "#1c1d1d",
@@ -338,12 +339,6 @@
               "aboutdetails": "Care, support and opportunities for growth for all"
             }
           },
-          "b9eb0a9e-1f34-4c8e-bd81-1863eef7875f": {
-            "type": "list",
-            "settings": {
-              "aboutdetails": "growth for all employees,"
-            }
-          },
           "185367a9-3dfb-4d08-bcd5-066b0ce259f5": {
             "type": "list",
             "settings": {
@@ -389,7 +384,6 @@
         },
         "block_order": [
           "a7f10bf5-2e67-4201-b930-307e1b552839",
-          "b9eb0a9e-1f34-4c8e-bd81-1863eef7875f",
           "185367a9-3dfb-4d08-bcd5-066b0ce259f5",
           "6d908850-6af7-4f52-ba72-c48deb9cba19",
           "07bb6266-2729-4480-b847-550414efec9e",
@@ -406,8 +400,8 @@
           "headerbusiness": "The Business Social Compliance Initiative (BSCI) is a non-profit organisation. It was set up as an initiative of the Foreign Trade Association in response to the debate on how to achieve convergence in the field of corporate social responsibility. It implements the principle international labour standards such as International Labour Organisation (ILO) conventions and the United Nations (UN) Guiding Principles on Business and Human Rights (UNGPs) and guidelines for the Organisation for Economic Co-operation and Development (OECD).",
           "feedback": "Thank you Wallace, June, and Ann, for your contributions with the development of Neux. I appreciate your hard work and dedication every day.",
           "boximage": "shopify:\/\/shop_images\/makers-img-1.png",
-          "lefttitle": "Me :)",
-          "righttitle": "Wallace (owner & manager of our factory in Huzhou, China)",
+          "lefttitle": "",
+          "righttitle": "",
           "headersustainbility": "SUSTAINBILITY",
           "imagesustainbility": "shopify:\/\/shop_images\/sustainbility-img_115e4bf8-2bfc-43b8-91c7-8bb1a49aae5d.png",
           "sustainbilitydescription": "The Business Social Compliance Initiative (BSCI) is a non-profit organisation. It was set up as an initiative of the Foreign Trade Association in response to the debate on how to achieve convergence in the field of corporate social responsibility. It implements the principle international labour standards such as International Labour Organisation (ILO) conventions and the United Nations (UN) Guiding Principles on Business and Human Rights (UNGPs) and guidelines for the Organisation for Economic Co-operation and Development (OECD).",
