@@ -40,7 +40,7 @@
         "settings": {
           "logo": "shopify:\/\/shop_images\/NEUX-01-Primary.png",
           "logo_max_width": 125,
-          "header_color": "#f6f6f6",
+          "header_color": "#1f2021",
           "search": "modal",
           "main_menu_link_list": "main-menu",
           "drawer_bottom_link_list": "footer",
@@ -49,8 +49,8 @@
           "home_page_only": true,
           "text": "Announce something here",
           "link": "",
-          "color_bg": "#ffffff",
-          "color_text": "#ffffff"
+          "color_bg": "#1f2021",
+          "color_text": "#1f2021"
         }
       },
       "slideshow": {
