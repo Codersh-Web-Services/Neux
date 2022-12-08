@@ -129,6 +129,10 @@
         {% endif %}
         <h3>{{collection.title}}	</h3>
         <h1 class="product-single__title" itemprop="name">{{ product.title }}</h1>
+{% comment %}Start automatically added Judge.me widget{% endcomment %}
+  {% render 'judgeme_widgets', widget_type: 'judgeme_preview_badge', concierge_install: true, product: product %}
+{% comment %}End automatically added Judge.me widget{% endcomment %}
+
 
         <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
           {% comment %}
@@ -262,6 +266,10 @@
       </div>
     </div>
   </div>
+{% comment %}Start automatically added Judge.me widget{% endcomment %}
+  {% render 'judgeme_widgets', widget_type: 'judgeme_review_widget', concierge_install: true, product: product %}
+{% comment %}End automatically added Judge.me widget{% endcomment %}
+
 </div>
 {% unless product == empty %}
 <script type="application/json" id="ProductJson-{{ section.id }}">
