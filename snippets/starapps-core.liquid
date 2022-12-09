@@ -1,13 +1,12 @@
 <!-- starapps_core_start -->
 <!-- This code is automatically managed by StarApps Studio -->
 <!-- Please contact support@starapps.studio for any help -->
-<!-- File location: snippets/starapps-core.liquid -->
-
-
-{% comment %} meta_information_start {% endcomment %}
+<!-- File location: snippets/starapps-core.liquid -->{% comment %} meta_information_start {% endcomment %}
 {% comment %}Locale, Currency and other meta data of the store{% endcomment %}
 <script type="application/json" sa-language-info="true" data-no-instant="true">{{ newline }}{"current_language":"{{ shop.locale | escape }}", "default_language":"{%- for locale in shop.published_locales -%}{%- if locale.primary -%}{{ locale.iso_code | escape }}{%- endif -%}{%- endfor -%}", "money_format":{{ shop.money_format | json }}}{{ newline }}</script>
-{% comment %} meta_information_end {% endcomment %}<script type="text/javascript" src="https://assets-cdn.starapps.studio/apps/vsk/neux-com/script-46057-1670623935.js?shop={{shop.permanent_domain}}" async></script>
+{% comment %} meta_information_end {% endcomment %}
+    
+<script type="text/javascript" src="https://assets-cdn.starapps.studio/apps/vsk/neux-com/script-46057-1670624324.js?shop={{shop.permanent_domain}}" async></script>
 
 
 <!-- VSK_PRE_APP_HIDE_CODE -->
