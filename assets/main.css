@@ -127,7 +127,7 @@ span.icon.icon-arrow-down:before {
   margin: 0 auto;
 }
 .home-products .product_wrapper {
-  flex-basis: 26%;
+  flex-basis: 21%;
 }
 .swiper-button-next:after,
 .swiper-button-prev:after {
