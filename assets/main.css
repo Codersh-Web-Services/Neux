@@ -28,6 +28,11 @@ footer input[type="submit"] {
   src: url("https://cdn.shopify.com/s/files/1/0645/1609/6221/t/5/assets/Branch_Updated.ttf");
   font-display: swap;
 }
+
+
+.template-index .site-header__logo-image {
+  filter: invert(100%);
+}
 .supports-fontface .icon:before,
 a.site-nav__link:hover span.icon.icon-arrow-down:before,
 ul#AccessibleNav > li > a:hover {
