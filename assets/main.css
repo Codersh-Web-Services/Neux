@@ -627,6 +627,7 @@ h1.product-single__title {
 .accordion-button:focus {
   box-shadow: none;
   border: 0;
+  color: #0c0306;
 }
 
 
