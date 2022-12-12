@@ -98,8 +98,9 @@
         </div>
         {% if linklists[section.settings.footer_link_list].links.size > 0 %}
         <div class="grid__item one-fifth ">
-          <h4 class="branch_heading">{{linklists[section.settings.footer_link_list].title}}</h4>
-          <ul class="no-bullets site-footer__linklist">
+           <div class="accordion accordion-flush">
+          <h4 class="branch_heading accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne">{{linklists[section.settings.footer_link_list].title}}</h4>
+          <ul class="no-bullets site-footer__linklist accordion-collapse collapse"  id="flush-collapseOne">
   
             {% for link in linklists[section.settings.footer_link_list].links %}
   
@@ -114,6 +115,7 @@
   
             {% endfor %}
           </ul>
+        </div>
         </div>
         {% endif %}
   
