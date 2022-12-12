@@ -1,6 +1,7 @@
 <div class="home-products">
   {%for product in section.settings.collection.products  limit:6  %}
       <div class="product_wrapper">
+        <div class="grid-product__wrapper">
     <!-- Slider main container -->
              <a href="{{product.url | within : collections["home"]}}">
                 <div class="swiper">
@@ -87,6 +88,7 @@
                   {% endif %}
                
               </a>
+        </div>
       </div>
     {%endfor%}
 </div>
