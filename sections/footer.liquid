@@ -97,9 +97,9 @@
   
         </div>
         {% if linklists[section.settings.footer_link_list].links.size > 0 %}
-        <div class="grid__item one-fifth footer-block__details-content">
+        <div class="footer-block__details-content grid__item one-fifth">
           <h4 class="branch_heading">{{linklists[section.settings.footer_link_list].title}}</h4>
-          <ul class="no-bullets site-footer__linklist footer-block__details-content">
+          <ul class="footer-block__details-content no-bullets site-footer__linklist">
   
             {% for link in linklists[section.settings.footer_link_list].links %}
   
@@ -117,7 +117,7 @@
         </div>
         {% endif %}
   
-        <div class="grid__item one-fifth footer-block__details-content">
+        <div class="footer-block__details-content grid__item one-fifth">
 <!--           <div class="dropdown">
   <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
     Dropdown button
@@ -129,7 +129,7 @@
   </ul>
 </div> -->
           <h4 class="branch_heading"> {{linklists[section.settings.footer_link_list2].title}}</h4>
-          <ul class="no-bullets site-footer__linklist footer-block__details-content">
+          <ul class="footer-block__details-content no-bullets site-footer__linklist">
   
             {% for link in linklists[section.settings.footer_link_list2].links %}
             <li><a href="{{ link.url }}">{{ link.title }}</a></li>
