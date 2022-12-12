@@ -47,7 +47,7 @@ ul#AccessibleNav > li > a:hover
   transition: all .35s ease;
 }
 
-.header-wrapper .site-nav__link:hover {
+.header-wrapper a.site-nav__link:hover {
   color: #000;
 }
 .logo-text-slider {
