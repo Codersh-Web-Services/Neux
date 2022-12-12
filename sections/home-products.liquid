@@ -15,75 +15,76 @@
                   <div class="swiper-button-prev"></div>
                   <div class="swiper-button-next"></div>
                 </div>
-               <span class="grid-product__title">{{ product.title }}</span>
-      <div class="grid-product__sizes" >
-      		 {% for option in product.options_with_values  offset: 1 %}
-                      <fieldset class="single-option-radio"
-                        id="ProductSelect-option-{{ forloop.index0 }}">
-                        {% assign option_index = forloop.index %}
-                        {% for value in option.values %}
-                          {% assign variant_label_state = true %}
-                          {% if product.options.size == 1 %}
-                            {% unless product.variants[forloop.index0].available  %}
-                              {% assign variant_label_state = false %}
-                            {% endunless %}
-                          {% endif %}
-                          <input type="radio"
-                            {% if option.selected_value == value %} checked="checked"{% endif %}
-                            {% unless variant_label_state %} disabled="disabled"{% endunless %}
-                            value="{{ value | escape }}"
-                            data-index="option{{ option_index }}"
-                            name="option{{ option.position }}"
-                            class="{% unless variant_label_state %} disabled{% endunless %}"
-                            id="ProductSelect-option-{{ option.name | handleize }}-{{ value | escape }}">
-                          <label for="ProductSelect-option-{{ option.name | handleize }}-{{ value | escape }}"{% unless variant_label_state %} class="disabled"{% endunless %}>{{ value | escape }}</label>
-                        {% endfor %}
-                      </fieldset>
-              
-        
-                {% endfor %}
-      </div>
-      <span class="grid-product__price-wrap">
- 
-        <div class="grid-product__price">
-          {% if on_sale %}
-            <span class="visually-hidden">{{ 'products.general.sale_price' | t }}</span>
-          {% else %}
-             <span class="visually-hidden">{{ 'products.general.regular_price' | t }}</span>
-          {% endif %}
-          {% if product.price_varies %}
-            {{ product.price_min | money_without_trailing_zeros }}
-            <span class="icon-fallback-text">
-              <span class="icon icon-plus grid-product__price-min" aria-hidden="true"></span>
-              <span class="fallback-text">+</span>
-            </span>
-          {% else %}
-            {{ product.price | money_without_trailing_zeros }}
-          {% endif %}
+               
+                  <span class="grid-product__title">{{ product.title }}</span>
+                  <div class="grid-product__sizes" >
+        		 {% for option in product.options_with_values  offset: 1 %}
+                        <fieldset class="single-option-radio"
+                          id="ProductSelect-option-{{ forloop.index0 }}">
+                          {% assign option_index = forloop.index %}
+                          {% for value in option.values %}
+                            {% assign variant_label_state = true %}
+                            {% if product.options.size == 1 %}
+                              {% unless product.variants[forloop.index0].available  %}
+                                {% assign variant_label_state = false %}
+                              {% endunless %}
+                            {% endif %}
+                            <input type="radio"
+                              {% if option.selected_value == value %} checked="checked"{% endif %}
+                              {% unless variant_label_state %} disabled="disabled"{% endunless %}
+                              value="{{ value | escape }}"
+                              data-index="option{{ option_index }}"
+                              name="option{{ option.position }}"
+                              class="{% unless variant_label_state %} disabled{% endunless %}"
+                              id="ProductSelect-option-{{ option.name | handleize }}-{{ value | escape }}">
+                            <label for="ProductSelect-option-{{ option.name | handleize }}-{{ value | escape }}"{% unless variant_label_state %} class="disabled"{% endunless %}>{{ value | escape }}</label>
+                          {% endfor %}
+                        </fieldset>
+                
+          
+                  {% endfor %}
         </div>
-
-        {%- if product.price_varies == false and variant.unit_price_measurement -%}
-          {%- capture unit_price_separator -%}
-            <span aria-hidden="true">/</span><span class="visually-hidden">&nbsp;{{ 'general.accessibility.unit_price_separator' | t }}&nbsp;</span>
-          {%- endcapture -%}
-
-          {%- capture unit_price_base_unit -%}
-            <span>
-              {%- if variant.unit_price_measurement.reference_value != 1 -%}
-                {{- variant.unit_price_measurement.reference_value -}}
-              {%- endif -%}
-              {{ variant.unit_price_measurement.reference_unit }}
-            </span>
-          {%- endcapture -%}
-          <span class="product-unit-price">
-            <span class="visually-hidden">{{ 'products.general.unit_price' | t }}</span>
-            <span>{{ variant.unit_price | money }}</span>{{- unit_price_separator -}}{{- unit_price_base_unit -}}
-          </span>
-        {%- endif -%}
-      </span>
-      {% if section.settings.product_vendor_enable %}
-        <p class="grid-product__vendor">{{ product.vendor }}</p>
-      {% endif %}
+                  <span class="grid-product__price-wrap">
+             
+                    <div class="grid-product__price">
+                      {% if on_sale %}
+                        <span class="visually-hidden">{{ 'products.general.sale_price' | t }}</span>
+                      {% else %}
+                         <span class="visually-hidden">{{ 'products.general.regular_price' | t }}</span>
+                      {% endif %}
+                      {% if product.price_varies %}
+                        {{ product.price_min | money_without_trailing_zeros }}
+                        <span class="icon-fallback-text">
+                          <span class="icon icon-plus grid-product__price-min" aria-hidden="true"></span>
+                          <span class="fallback-text">+</span>
+                        </span>
+                      {% else %}
+                        {{ product.price | money_without_trailing_zeros }}
+                      {% endif %}
+                    </div>
+            
+                    {%- if product.price_varies == false and variant.unit_price_measurement -%}
+                      {%- capture unit_price_separator -%}
+                        <span aria-hidden="true">/</span><span class="visually-hidden">&nbsp;{{ 'general.accessibility.unit_price_separator' | t }}&nbsp;</span>
+                      {%- endcapture -%}
+            
+                      {%- capture unit_price_base_unit -%}
+                        <span>
+                          {%- if variant.unit_price_measurement.reference_value != 1 -%}
+                            {{- variant.unit_price_measurement.reference_value -}}
+                          {%- endif -%}
+                          {{ variant.unit_price_measurement.reference_unit }}
+                        </span>
+                      {%- endcapture -%}
+                      <span class="product-unit-price">
+                        <span class="visually-hidden">{{ 'products.general.unit_price' | t }}</span>
+                        <span>{{ variant.unit_price | money }}</span>{{- unit_price_separator -}}{{- unit_price_base_unit -}}
+                      </span>
+                    {%- endif -%}
+                  </span>
+                  {% if section.settings.product_vendor_enable %}
+                    <p class="grid-product__vendor">{{ product.vendor }}</p>
+                  {% endif %}
                
               </a>
       </div>
