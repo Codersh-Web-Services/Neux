@@ -23,21 +23,4 @@
   scrollbar: {
     el: '.swiper-scrollbar',
   },
-
-    breakpoints: {
-        640: {
-            slidesPerView: 2,
-        },
-        768: {
-            slidesPerView: 3,
-        },
-        1024: {
-            slidesPerView: 4,
-            dots: false,
-        },
-        1200: {
-            slidesPerView: 4,
-            dots: false,
-        },
-    },
 });
