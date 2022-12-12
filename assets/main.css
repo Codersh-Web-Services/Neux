@@ -619,6 +619,10 @@ h1.product-single__title {
   margin-top: 1.3rem;
 }
 
+.accordion-button collapsed {
+  opacity: 0;
+}
+
 @media only screen and (max-width: 1024px) {
   .makers h1 {
     font-size: 4.5rem;
@@ -696,6 +700,10 @@ h1.product-single__title {
 @media only screen and (max-width: 640px) {
   .img-wrap img {
     width: 100%;
+  }
+
+  .accordion-button collapsed {
+    opacity: 1;
   }
 }
 
