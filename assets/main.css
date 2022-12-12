@@ -125,7 +125,7 @@ ul.site-nav.site-nav--init {
 }
 #product-page-icon::before,
 span.icon.icon-arrow-down:before {
-  color: #000;
+  color: #fff;
 }
 .home-products {
   display: flex;
