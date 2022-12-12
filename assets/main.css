@@ -622,6 +622,7 @@ h1.product-single__title {
 .accordion-button:not(.collapsed) {
   box-shadow: none;
   background-color: transparent;
+    color: #0c0306;
 }
 
 .accordion-button:focus {
