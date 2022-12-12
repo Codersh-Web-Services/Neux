@@ -39,7 +39,7 @@ footer input[type="submit"] {
 a.site-nav__link:hover span.icon.icon-arrow-down:before,
 ul#AccessibleNav > li > a:hover 
 {
-  color: #fff;
+  color: #000;
 }
 
 .header-wrapper a.site-nav__link {
