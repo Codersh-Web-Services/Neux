@@ -623,7 +623,7 @@ h1.product-single__title {
   box-shadow: none;
   background-color: transparent;
     color: #0c0306;
-   filter: invert(100%), grayscale(100%);
+   filter: invert(100%) grayscale(100%);
 }
 
 .accordion-button:focus {
