@@ -97,17 +97,17 @@
   
         </div>
         {% if linklists[section.settings.footer_link_list].links.size > 0 %}
-        <div class="grid__item one-fifth footer-block__details-content">
+        <div class="grid__item one-fifth ">
           <h4 class="branch_heading">{{linklists[section.settings.footer_link_list].title}}</h4>
-          <ul class="no-bullets site-footer__linklist footer-block__details-content">
+          <ul class="no-bullets site-footer__linklist">
   
             {% for link in linklists[section.settings.footer_link_list].links %}
   
             {% if extra_footer_linklist_column and forloop.index == footer_linklist_split %}
           </ul>
         </div>
-        <div class="footer-block__details-content grid__item {{ footer_column_width }}">
-          <ul class="no-bullets site-footer__linklist footer-block__details-content">
+        <div class="grid__item {{ footer_column_width }}">
+          <ul class="no-bullets site-footer__linklist">
             {% endif %}
   
             <li><a href="{{ link.url }}">{{ link.title }}</a></li>
@@ -117,9 +117,9 @@
         </div>
         {% endif %}
   
-        <div class="grid__item one-fifth ">
+        <div class="footer-block__details-content grid__item one-fifth">
           <h4 class="branch_heading"> {{linklists[section.settings.footer_link_list2].title}}</h4>
-          <ul class="no-bullets site-footer__linklist">
+          <ul class="footer-block__details-content no-bullets site-footer__linklist">
   
             {% for link in linklists[section.settings.footer_link_list2].links %}
             <li><a href="{{ link.url }}">{{ link.title }}</a></li>
