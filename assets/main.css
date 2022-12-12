@@ -34,7 +34,7 @@ footer input[type="submit"] {
 .supports-fontface .icon:before,
 a.site-nav__link:hover span.icon.icon-arrow-down:before,
 ul#AccessibleNav > li > a:hover {
-  /*   color: #fff; */
+    color: #fff;
 }
 .header-wrapper a.site-nav__link {
   color: #fff;
