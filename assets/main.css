@@ -47,7 +47,7 @@ ul#AccessibleNav > li > a:hover
 }
 
 .header-wrapper a.site-nav__link:hover {
-  opacity: 0.85;
+  opacity: 0.90;
 }
 .logo-text-slider {
   animation: 60s linear infinite slide-text;
