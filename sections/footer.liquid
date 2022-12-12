@@ -118,7 +118,9 @@
         {% endif %}
   
         <div class="footer-block__details-content grid__item one-fifth">
+           {%- if block.settings.heading != blank -%}
           <h4 class="footer-block__heading branch_heading"> {{linklists[section.settings.footer_link_list2].title}}</h4>
+             {%- endif -%}
           <ul class="footer-block__details-content no-bullets site-footer__linklist">
   
             {% for link in linklists[section.settings.footer_link_list2].links %}
