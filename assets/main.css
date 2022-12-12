@@ -49,6 +49,10 @@ ul#AccessibleNav > li > a:hover
 .header-wrapper a.site-nav__link:hover {
   opacity: 0.90;
 }
+
+ .header-wrapper .site-nav--has-dropdown.nav-hover > a {
+   color: #fff;
+ }
 .logo-text-slider {
   animation: 60s linear infinite slide-text;
   display: flex;
