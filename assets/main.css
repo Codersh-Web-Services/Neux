@@ -34,7 +34,7 @@ footer input[type="submit"] {
 .supports-fontface .icon:before,
 a.site-nav__link:hover span.icon.icon-arrow-down:before,
 ul#AccessibleNav > li > a:hover {
-    color: #fff;
+/*     color: #fff; */
 }
 .header-wrapper a.site-nav__link {
   color: #fff;
@@ -45,7 +45,7 @@ ul#AccessibleNav > li > a:hover {
 }
 
 .header-wrapper .site-nav--has-dropdown .site-nav__link {
-  color: #fff;
+  color: #fff !important;
 }
 .logo-text-slider {
   animation: 60s linear infinite slide-text;
