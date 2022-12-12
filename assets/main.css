@@ -37,16 +37,16 @@ ul#AccessibleNav > li > a:hover {
 /*     color: #fff; */
 }
 .header-wrapper a.site-nav__link {
-  color: #fff;
+  color: #fff !important;
 }
 
 .header-wrapper a.site-nav__link:hover {
   opacity: 0.9;
 }
 
-.header-wrapper .site-nav--has-dropdown .site-nav__link {
+/* .header-wrapper .site-nav--has-dropdown .site-nav__link {
   color: #fff !important;
-}
+} */
 .logo-text-slider {
   animation: 60s linear infinite slide-text;
   display: flex;
