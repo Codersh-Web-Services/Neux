@@ -119,7 +119,7 @@
   
         <div class="grid__item one-fifth ">
           <h4 class="branch_heading accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"> {{linklists[section.settings.footer_link_list2].title}}</h4>
-          <ul id="flush-collapseOne" class="accordion-collapse collapse no-bullets site-footer__linklist">
+          <ul class="no-bullets site-footer__linklist accordion-collapse collapse"  id="flush-collapseOne">
   
             {% for link in linklists[section.settings.footer_link_list2].links %}
             <li><a href="{{ link.url }}">{{ link.title }}</a></li>
