@@ -631,6 +631,10 @@ h1.product-single__title {
   color: #0c0306;
 }
 
+.accordion-button::after {
+  filter: invert(100%);
+}
+
 
 @media only screen and (max-width: 1024px) {
   .makers h1 {
