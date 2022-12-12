@@ -1,6 +1,6 @@
 <style>
 @media (max-width: 767px) {
-  .grid__item {
+  .one-fifth {
     display: none;
   }
 }
@@ -183,7 +183,7 @@
 
 <script>
 $(document).ready(function() {
-  $('.grid__item').on('click', function() {
+  $('.one-fifth').on('click', function() {
     if ($(window).width() < 768) {
       $(this).next().toggle();
     }
