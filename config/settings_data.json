@@ -50,7 +50,7 @@
           "home_page_only": true,
           "text": "Announce something here",
           "link": "",
-          "color_bg": "#1f2021",
+          "color_bg": "#ffffff",
           "color_text": "#1f2021"
         }
       },
@@ -415,15 +415,7 @@
       "1656422761eb1aedc2",
       "1656426359ee63170c",
       "1656481026a3473a63"
-    ],
-    "blocks": {
-      "7570552984445421165": {
-        "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/settings\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
-        "disabled": true,
-        "settings": {
-        }
-      }
-    }
+    ]
   },
   "presets": {
     "Classic": {
