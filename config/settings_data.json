@@ -41,7 +41,8 @@
         "settings": {
           "logo": "shopify:\/\/shop_images\/NEUX-01-Primary.png",
           "logo_max_width": 125,
-          "header_color": "#1f2021",
+          "header_menu_color": "#ffffff",
+          "header_menu_color_hover": "#dbdbdb",
           "search": "modal",
           "main_menu_link_list": "main-menu",
           "drawer_bottom_link_list": "footer",
