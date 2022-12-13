@@ -4,17 +4,8 @@
 {% endcomment %}
 
 {% section 'product-template' %}
-<div class="yotpo yotpo-main-widget"
-data-product-id="{{ product.id }}"
-data-name="{{ product.title | escape }}"
-data-url="{{ shop.url }}{{ product.url }}"
-data-image-url="{{ product.featured_image | product_img_url: 'large' |replace: '?', '%3F' | replace: '&','%26'}}"
-data-price="{{ variant.price | money_without_currency }}"
-data-currency="{{ shop.currency }}"
-data-description="{{ product.description | escape }}">
-</div>
-{% section 'product-recommendations' %}
 
+{% section 'product-recommendations' %}
 
 <div id="backToCollection"></div>
 
@@ -36,7 +27,4 @@ data-description="{{ product.description | escape }}">
       $("#backToCollection").append(backToCollectionHTML);
     }
   }
-</script>
-<script type="text/javascript">
-(function e(){var e=document.createElement("script");e.type="text/javascript",e.async=true,e.src="//staticw2.yotpo.com/vBg7jEBorlhMlgX4CRaulBZLs7DaH5rHRuZyMxGn/widget.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})();
 </script>
