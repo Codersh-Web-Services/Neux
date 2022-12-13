@@ -283,7 +283,14 @@ text-underline-offset: 0.5em;
 </div>
 
 
-
+{% style %}
+.header-wrapper a.site-nav__link {
+  color: {{section.settings.header_menu_color}} ;
+}
+.header-wrapper a.site-nav__link:hover {
+  color: {{section.settings.header_menu_color_hover}} ;
+}
+{% endstyle %}
 {% schema %}
 {
   "name": {
@@ -369,35 +376,19 @@ text-underline-offset: 0.5em;
       "unit": "px",
       "default": 180
     },
+    
     {
       "type": "color",
-      "id": "header_color",
-      "label": {
-        "cs": "Odkazy a ikony",
-        "da": "Links og ikoner",
-        "de": "Links und Symbole",
-        "en": "Links and icons",
-        "es": "Enlaces e íconos",
-        "fi": "Linkit ja kuvakkeet",
-        "fr": "Liens et icônes",
-        "it": "Link e icone",
-        "ja": "リンクとアイコン",
-        "ko": "링크와 아이콘",
-        "nb": "Koblinger og ikoner",
-        "nl": "Links en pictogrammen",
-        "pl": "Linki i ikony",
-        "pt-BR": "Links e ícones",
-        "pt-PT": "Ligações e ícones",
-        "sv": "Länkar och ikoner",
-        "th": "ลิงก์และไอคอน",
-        "tr": "Bağlantılar ve simgeler",
-        "vi": "Liên kết và biểu tượng",
-        "zh-CN": "链接和图标",
-        "zh-TW": "連結與圖示"
-      },
-      "default": "#000000"
+      "id": "header_menu_color",
+      "label": "Menu links: default color",
+      "default": "#ffffff"
     },
-   
+    {
+      "type": "color",
+      "id":  "header_menu_color_hover",
+      "label": "Menu links: hover color",
+      "default": "#ffffff"
+    },
     {
       "type": "header",
       "content": "Navigation"

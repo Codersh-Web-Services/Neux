@@ -4,82 +4,94 @@ p.hero__subtitle {
   color: #fff;
   text-align: center;
 }
+
 h2.hero__title {
   font-weight: 500;
 }
+
 footer input[type="email"],
 footer input[type="submit"] {
   background-color: #fff;
   border: 2px solid #000;
   font-weight: 600;
 }
+
 @font-face {
   font-family: Mango;
   src: url("https://cdn.shopify.com/s/files/1/0645/1609/6221/t/5/assets/Mango.ttf");
   font-display: swap;
 }
+
 @font-face {
   font-family: Carpenter;
   src: url("https://cdn.shopify.com/s/files/1/0645/1609/6221/t/5/assets/Carphe_Script.ttf");
   font-display: swap;
 }
+
 @font-face {
   font-family: Branch;
   src: url("https://cdn.shopify.com/s/files/1/0645/1609/6221/t/5/assets/Branch_Updated.ttf");
   font-display: swap;
 }
+
 .template-index .site-header__logo-image {
   filter: invert(100%);
 }
+
 .supports-fontface .icon:before,
 a.site-nav__link:hover span.icon.icon-arrow-down:before,
-ul#AccessibleNav > li > a:hover {
+ul#AccessibleNav>li>a:hover {
   /*     color: #fff; */
 }
-.header-wrapper a.site-nav__link {
-  color: #fff !important;
-}
-.header-wrapper a.site-nav__link:hover {
-  opacity: 0.9;
-}
+
 .logo-text-slider {
   animation: 60s linear infinite slide-text;
   display: flex;
 }
+
 .campaign_wrapper,
 .hero-custom {
   position: relative;
 }
+
 .cart_navbar {
   display: flex;
   justify-content: flex-end;
   padding-right: 20px;
 }
+
 .hero__text-content {
   vertical-align: bottom;
 }
+
 p.hero__subtitle {
   margin: 0;
   font-size: 46px;
 }
+
 .site-nav__item {
   position: unset;
 }
+
 .index-sections .shopify-section:first-child {
   margin-top: 0 !important;
 }
-div#shopify-section-header > div {
+
+div#shopify-section-header>div {
   position: absolute;
   width: 100%;
 }
-div#shopify-section-header > div.static {
+
+div#shopify-section-header>div.static {
   position: static;
 }
+
 h2.hero__title {
   font-size: 16rem;
   padding: 0;
   line-height: 0.5;
 }
+
 .hero__text-wrap {
   position: absolute;
   bottom: 0 !important;
@@ -108,27 +120,32 @@ h2.hero__title {
   object-fit: cover;
 }
 
-.site-header .grid--table > .grid__item {
+.site-header .grid--table>.grid__item {
   margin: auto;
   display: grid;
 }
+
 ul.site-nav.site-nav--init {
   text-align: center;
   margin-top: 20px;
 }
+
 #product-page-icon::before,
 span.icon.icon-arrow-down:before {
   color: #fff;
 }
+
 .home-products {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
 }
+
 .home-products .product_wrapper {
   flex-basis: 21%;
 }
+
 .swiper-button-next:after,
 .swiper-button-prev:after {
   font-family: swiper-icons;
@@ -139,26 +156,31 @@ span.icon.icon-arrow-down:before {
   line-height: 1;
   color: #bbb;
 }
+
 .swiper {
   width: fit-content;
   height: fit-content;
   margin: 2rem 2rem 0;
   user-select: none;
 }
+
 ul#MenuParent-1 {
   width: 100%;
   display: flex;
   flex-direction: row;
   padding: 2em;
 }
+
 ul#MenuParent-1 ul {
   margin: 4px 0 5px;
 }
+
 .product_wrapper img {
   margin: 30px auto;
   display: block;
   width: 85%;
 }
+
 a.shop-home {
   display: block;
   margin: auto;
@@ -170,11 +192,13 @@ a.shop-home {
   font-family: Branch;
   font-weight: 400;
 }
+
 .campaign_wrapper .bg-image,
 .campaign_wrapper video {
   width: 100%;
   object-fit: cover;
 }
+
 .campaign_wrapper .text-overlay p {
   font-size: 4rem;
   width: fit-content;
@@ -182,9 +206,11 @@ a.shop-home {
   font-family: Carpenter;
   color: #fff;
 }
+
 .logo-text-slider img {
   margin-right: 50px;
 }
+
 .campaign_wrapper .text-overlay {
   position: absolute;
   top: 50%;
@@ -192,143 +218,176 @@ a.shop-home {
   transform: translate(0, -50%);
   overflow-x: hidden;
 }
+
 .instagram_wrapper p {
   text-align: center;
   font-size: 1.8rem;
   margin: 0;
 }
+
 .instagram_wrapper img,
 form#contact_form input.btn.right {
   width: 100%;
 }
+
 #insta-feed,
 .instafeed-shopify {
   margin: 0 !important;
 }
+
 .footer-logo {
   width: 140px;
   height: auto;
 }
+
 footer input[type="submit"] {
   margin-top: 26px;
   width: 100%;
   font-family: Branch;
   font-size: 1.2rem;
 }
+
 footer input[type="email"] {
   width: 100%;
   font-family: Branch;
   font-size: 1.2rem;
 }
+
 ul.no-bullets.site-footer__linklist {
   font-size: 1.2rem;
   font-family: Branch;
 }
+
 .grid__item.one-fifth {
   text-transform: uppercase;
 }
+
 .social-icon {
   padding-top: 10px;
 }
+
 footer .branch_heading {
   font-family: Branch;
   font-size: 19.2px;
   color: #0c0306;
 }
+
 .site-footer a {
   font-size: 16px;
 }
+
 .diamond {
   text-align: center;
   padding: 1rem 0 3rem;
   border-bottom: 2px solid;
 }
+
 footer.site-footer .container-fluid {
   margin-top: 2.5rem;
 }
+
 .social-icon img {
   margin-left: 15px;
 }
+
 .grid-product__sizes,
 .grid-product__wrapper:hover .grid-product__price,
 .hr--large {
   display: none;
 }
+
 @media (min-width: 922px) {
   .product-single__media-wrapper {
     margin: 0;
   }
+
   li.product-single__media-wrapper {
     width: fit-content;
   }
+
   .product-single__thumbnails li {
     float: unset;
     width: auto;
   }
+
   .product-single__media {
     width: 600px;
     padding-top: 0 !important;
   }
+
   div#ProductMediaGroup-product-template {
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
     gap: 6%;
   }
-  .product-single__media-group--single-xr ~ .product-single__thumbnails {
+
+  .product-single__media-group--single-xr~.product-single__thumbnails {
     margin-top: 0;
   }
+
   .product-single__media img {
     position: static;
   }
+
   .product-single__meta h3 {
     font-size: 10px;
   }
+
   .product-single__meta h1 {
     font-size: 1rem;
     line-height: normal;
   }
 }
+
 @keyframes slide-text {
   from {
     transform: translateX(-200%);
   }
+
   to {
     transform: translateX(0);
   }
 }
+
 .rec-products-wrapper {
   display: flex;
   flex-wrap: wrap;
   gap: 2%;
   justify-content: center;
 }
+
 .rec-products-title {
   font-size: 1.5rem;
   font-weight: 100;
   margin-top: revert-layer;
 }
+
 .product-single__description,
 .rec-product-item p {
   font-size: 1.1rem;
   letter-spacing: 0.1rem;
 }
+
 .rec-product-item p {
   margin: 0 0 2px;
   text-align: center;
   font-weight: 600;
   text-transform: uppercase;
 }
+
 .radio-wrapper.js.product-form__item label.single-option-radio__label {
   font-size: 1rem;
   text-transform: uppercase;
   line-height: normal;
   letter-spacing: 0.1rem;
 }
+
 .product-recommendations .section-header,
 .product-recommendations .section-header h2 {
   margin: 0;
 }
+
 .product-recommendations .swiper {
   margin: 0.5rem 2rem 0;
 }
@@ -340,9 +399,11 @@ footer.site-footer .container-fluid {
 #CollectionSection .section-header {
   padding: 0 2rem;
 }
+
 .grid-product__wrapper:hover .grid-product__sizes {
   display: block;
 }
+
 .grid-product__sizes .single-option-radio label {
   border: none;
   background: 0 0;
@@ -352,24 +413,30 @@ footer.site-footer .container-fluid {
   padding: 2px;
   color: #0c0306;
 }
+
 .grid-product__sizes fieldset {
   padding: 0;
 }
+
 .collection-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .product-recommendations h2 {
   font-size: 1em;
   font-weight: 100;
 }
+
 .accordion-button {
   padding: 10px;
 }
+
 .accordion-item {
   border: none;
 }
+
 button.accordion-button {
   background-color: transparent !important;
   box-shadow: none !important;
@@ -379,9 +446,11 @@ button.accordion-button {
   letter-spacing: 0.1rem;
   text-transform: uppercase;
 }
+
 .product-single__meta h3 {
   font-size: 15px;
 }
+
 h1.product-single__title {
   font-size: 2.6rem;
   font-family: Branch;
@@ -392,80 +461,101 @@ h1.product-single__title {
   line-height: normal;
   margin: 0 0 10px;
 }
+
 .rec-products-wrapper {
   flex-wrap: nowrap;
 }
+
 @media (max-width: 1400px) {
   .product-single__media {
     width: unset;
   }
 }
+
 @media (max-width: 767px) {
   .hero__image_custom img {
     width: 100%;
     object-fit: cover;
     height: auto;
   }
+
   #CollectionSection .section-header {
     padding: 0 1rem;
   }
+
   .swiper {
     margin: 0 1rem 0 1rem;
   }
+
   .rec-products-wrapper {
     flex-wrap: wrap;
   }
+
   .hero__image_custom {
     height: auto;
   }
+
   .cart_navbar {
     display: none;
   }
+
   .home-products .product_wrapper {
     flex-basis: 50%;
   }
+
   .grid__item.one-fifth,
   .grid__item.one-third {
     width: 100%;
   }
+
   img.footer-logo {
     margin: 20px;
   }
+
   .logo-text-slider {
     animation: 10s linear infinite slide-text;
   }
+
   .logo-text-slider img {
     margin-right: 25px;
     width: 105px;
     height: auto;
   }
+
   .instagram_wrapper p {
     text-align: center;
     font-size: 1.2rem;
     margin: 0;
   }
 }
+
 @media (max-width: 870px) {
   h2.hero__title {
     font-size: 5rem;
   }
+
   p.hero__subtitle {
     font-size: 32px;
   }
+
   .campaign_wrapper .bg-image {
     width: 100%;
     height: 300px;
     object-fit: cover;
   }
+
   .logo-text-slider img:first-of-type {
     margin-left: -80px;
   }
-  .site-header .grid--table > .grid__item {
+
+  .site-header .grid--table>.grid__item {
     display: inline-block;
   }
+
   .rec-products-wrapper {
     justify-content: center;
   }
+
   .product-single__media-wrapper {
     margin: 0 auto;
   }
@@ -622,7 +712,7 @@ h1.product-single__title {
 .accordion-button:not(.collapsed) {
   box-shadow: none;
   background-color: transparent;
-    color: #0c0306;
+  color: #0c0306;
 
 }
 
@@ -633,7 +723,7 @@ h1.product-single__title {
 }
 
 .accordion-button:not(.collapsed)::after {
-    filter: invert(100%) grayscale(100%);
+  filter: invert(100%) grayscale(100%);
 }
 
 
@@ -642,6 +732,7 @@ h1.product-single__title {
     font-size: 4.5rem;
     text-transform: uppercase;
   }
+
   .sustainbility h2 {
     font-size: 4.5rem;
     letter-spacing: 0.3rem;
@@ -666,6 +757,7 @@ h1.product-single__title {
     font-size: 4.5rem;
     text-transform: uppercase;
   }
+
   .sustainbility h2 {
     font-size: 4.5rem;
     letter-spacing: 0.5rem;
@@ -675,6 +767,7 @@ h1.product-single__title {
     font-size: 4rem;
     margin-bottom: 1.5rem;
   }
+
   .our-work p {
     margin-top: 1rem;
   }
@@ -685,6 +778,7 @@ h1.product-single__title {
     font-size: 3.5rem;
     text-transform: uppercase;
   }
+
   .sustainbility h2 {
     font-size: 3.5rem;
     letter-spacing: normal;
@@ -784,6 +878,7 @@ h1.product-single__title {
     font-size: 2.5rem;
     text-transform: uppercase;
   }
+
   .sustainbility h2 {
     font-size: 2.5rem;
     letter-spacing: normal;
