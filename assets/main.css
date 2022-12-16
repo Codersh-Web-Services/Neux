@@ -475,7 +475,7 @@ h1.product-single__title {
   flex-wrap: nowrap;
 }
 
- site-nav__dropdown site-nav--has-grandchildren li a:hover {
+.site-nav__dropdown site-nav--has-grandchildren li a:hover {
      color: #0c0306;
  }
 
