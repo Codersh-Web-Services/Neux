@@ -460,15 +460,15 @@ h1.product-single__title {
   letter-spacing: 0.2rem;
   line-height: normal;
   margin: 0 0 10px;
-  color: #000;
+  color: #0c0306;
 }
 
 .product-single__price, .product-single__price--compare-at {
-  color: #000;
+  color: #0c0306;
 }
 
 product-single__metea h3 {
-  color: #000;
+  color: #0c0306;
 }
 
 .rec-products-wrapper {
