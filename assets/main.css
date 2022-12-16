@@ -386,6 +386,7 @@ footer.site-footer .container-fluid {
 .product-recommendations .section-header,
 .product-recommendations .section-header h2 {
   margin: 0;
+  color: #0c0306;
 }
 
 .product-recommendations .swiper {
