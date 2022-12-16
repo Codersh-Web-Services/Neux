@@ -476,7 +476,7 @@ h1.product-single__title {
 }
 
 .header-wrapper .site-nav__dropdown-link {
-     color: #0c0306;
+     color: #0c0306 !important;
  }
 
 @media (max-width: 1400px) {
