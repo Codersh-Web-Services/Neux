@@ -475,6 +475,10 @@ h1.product-single__title {
   flex-wrap: nowrap;
 }
 
+ .header-wrapper .site-nav__dropdown-link > a {
+     color: #0c0306;
+ }
+
 @media (max-width: 1400px) {
   .product-single__media {
     width: unset;
