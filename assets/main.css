@@ -475,7 +475,7 @@ h1.product-single__title {
   flex-wrap: nowrap;
 }
 
- .site-nav__item site-nav--has-dropdown.site-nav--has-dropdown-grandchild.site-nav--active:hover {
+ .site-nav__item site-nav--has-dropdown.site-nav--has-dropdown-grandchild.site-nav--active a:hover {
      color: #0c0306;
  }
 
