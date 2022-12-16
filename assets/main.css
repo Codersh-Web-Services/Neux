@@ -467,6 +467,10 @@ h1.product-single__title {
   color: #000;
 }
 
+product-single__metea h3 {
+  color: #000;
+}
+
 .rec-products-wrapper {
   flex-wrap: nowrap;
 }
