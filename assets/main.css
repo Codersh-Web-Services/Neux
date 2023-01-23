@@ -136,6 +136,10 @@ span.icon.icon-arrow-down:before {
   color: #000;
 }
 
+.site-nav__link .icon-arrow-down.white {
+  color: #fff;
+}
+
 .home-products {
   display: flex;
   flex-wrap: wrap;
