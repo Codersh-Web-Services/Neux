@@ -264,6 +264,7 @@ ul.no-bullets.site-footer__linklist {
 
 .social-icon {
   padding-top: 10px;
+  display: none;
 }
 
 footer .branch_heading {
