@@ -133,6 +133,7 @@ ul.site-nav.site-nav--init {
 #product-page-icon::before,
 span.icon.icon-arrow-down:before {
 /*   color: #fff; */
+  color: #000;
 }
 
 .home-products {
