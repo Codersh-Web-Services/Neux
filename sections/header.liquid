@@ -193,7 +193,7 @@ text-underline-offset: 0.5em;
                         aria-expanded="false"
                         {% unless request.page_type == 'index' %}{% if link.active %}aria-current="page"{% endif %}{% endunless%}>
                           {{ link.title | escape }}
-                          <span class="icon icon-arrow-down" aria-hidden="true"></span>
+                          <span class="icon icon-arrow-down white" aria-hidden="true"></span>
                       </a>
                       <ul
                         id="MenuParent-{{ parent_index }}"
