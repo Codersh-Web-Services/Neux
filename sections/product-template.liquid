@@ -246,7 +246,6 @@
           {% endform %}
           {%if product.metafields.arena.Accordion%}
           <div class="accordion">
-                   <ul>
             {% for value in product.metafields.arena.Accordion %}
             <div class="accordion-item">
               <h2 class="accordion-header" id="heading{{forloop.index}}">
@@ -257,16 +256,15 @@
               <div id="collapse{{forloop.index}}" class="accordion-collapse collapse" aria-labelledby="heading{{forloop.index}}" >
                 <div class="accordion-body">
 <!--                   <strong> {{product.metafields.arena.Accordioncontent[forloop.index0 ]}} </strong> -->
-        
+               <ul>
                  <li>
                    {{product.metafields.arena.Accordioncontent[forloop.index0 ]}}
                  </li>
-           
+               </ul>  
                 </div>
               </div>
             </div>
             {% endfor %}
-                 </ul> 
           </div>
           {%endif%}
         </div>
