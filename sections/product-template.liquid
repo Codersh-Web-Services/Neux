@@ -258,7 +258,7 @@
 <!--                   <strong> {{product.metafields.arena.Accordioncontent[forloop.index0 ]}} </strong> -->
 <!--                   <p> {{product.metafields.arena.Accordioncontent[forloop.index0 ]}}</p> -->
               <ul>
-  {% for description in product.metafields.arena.Accordioncontent %}
+  {% for description in product.metafields.arena.Accordioncontent[forloop.index0 ] %}
     <li>{{ description }}</li>
   {% endfor %}
 </ul>
