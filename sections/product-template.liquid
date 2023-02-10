@@ -257,13 +257,11 @@
                 <div class="accordion-body">
 <!--                   <strong> {{product.metafields.arena.Accordioncontent[forloop.index0 ]}} </strong> -->
 <!--                   <p> {{product.metafields.arena.Accordioncontent[forloop.index0 ]}}</p> -->
-        
+              <ul>
   {% for description in product.metafields.arena.Accordioncontent[forloop.index0 ] %}
-          <ul>
     <li>{{ description }}</li>
-            </ul>
   {% endfor %}
-
+</ul>
 
 
                 </div>
