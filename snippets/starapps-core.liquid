@@ -6,11 +6,12 @@
 <script type="application/json" sa-language-info="true" data-no-instant="true">{{ newline }}{"current_language":"{{ shop.locale | escape }}", "default_language":"{%- for locale in shop.published_locales -%}{%- if locale.primary -%}{{ locale.iso_code | escape }}{%- endif -%}{%- endfor -%}", "money_format":{{ shop.money_format | json }}}{{ newline }}</script>
 {% comment %} meta_information_end {% endcomment %}
     
-<script type="text/javascript" src="https://assets-cdn.starapps.studio/apps/vsk/neux-com/script-46057-1670840330.js?shop={{shop.permanent_domain}}" async></script>
+<script type="text/javascript" src="https://assets-cdn.starapps.studio/apps/vsk/neux-com/script-46057-1676011138.js?shop={{shop.permanent_domain}}" async></script>
 
 
 <!-- VSK_PRE_APP_HIDE_CODE -->
 {% if product.id != "" and product.id > 0 and content_for_header contains "swatch-king-installed" %}
+
 <style type="text/css" data-vsk-hide="data-vsk-hide">
     html:not(.nojs):not(.no-js) .radio-wrapper{opacity:0;max-height:0}
 
@@ -53,6 +54,7 @@
 })();
 // END
 </script>
+
 {% endif %}
 <!-- VSK_PRE_APP_HIDE_CODE_END -->
     
