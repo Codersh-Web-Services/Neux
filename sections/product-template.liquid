@@ -256,18 +256,11 @@
               <div id="collapse{{forloop.index}}" class="accordion-collapse collapse" aria-labelledby="heading{{forloop.index}}" >
                 <div class="accordion-body">
 <!--                   <strong> {{product.metafields.arena.Accordioncontent[forloop.index0 ]}} </strong> -->
-<!--                <ul>
+               <ul>
                  <li>
                    {{product.metafields.arena.Accordioncontent[forloop.index0 ]}}
                  </li>
-               </ul>   -->
-                  {%- if product.metafields.instructions != blank -%}
-  <ul>
-    {%- for field in product.metafields.instructions -%}
-      <li>{{ field | first }}: {{ field | last }}</li>
-    {%- endfor -%}
-  </ul>
-{%- endif -%}
+               </ul>  
                 </div>
               </div>
             </div>
