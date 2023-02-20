@@ -302,6 +302,10 @@ footer.site-footer .container-fluid {
   display: none;
 }
 
+.disclosure .disclosure__button {
+  display: none;
+}
+
 @media (min-width: 922px) {
   .product-single__media-wrapper {
     margin: 0;
