@@ -409,12 +409,22 @@
           "sowhatheader": "SO, WHAT WE ARE DOING?",
           "sodescription": "Education and awareness is key in this area. I aim to encourage ethical working conditions and sustainability, and for Neux to be a completely transparent, ethical business for years to come. For more sustainability & factory information, please see our highlights on instagram @neuxthelabel, or send us an email at hello@neuxthelabel.com.au ~ with love, Daisy xxx"
         }
+      },
+      "9d303c76-04a0-427e-8a56-ac07e9569780": {
+        "type": "featured-content",
+        "settings": {
+          "home_page_full_width": true,
+          "section_title": "Ethically Made ~ High Quality ~ Slow Fashion",
+          "text": "<p>We pride ourselves on being a 100% ethical fashion brand. We drop high quality items, slowly and with purpose. Our pieces are unique, and limited. Everything is 100% designed in-house. From our prints to our unique silhouettes ~ we're bringing something different to the game. <\/p><p>Avec Amour : With Love<\/p><p>NEUX<\/p><p><\/p>",
+          "text_size": "small"
+        }
       }
     },
     "content_for_index": [
       "16564177382e154ec8",
       "1656422761eb1aedc2",
       "1656426359ee63170c",
+      "9d303c76-04a0-427e-8a56-ac07e9569780",
       "1656481026a3473a63"
     ]
   },
