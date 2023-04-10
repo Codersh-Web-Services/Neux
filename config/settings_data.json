@@ -47,12 +47,12 @@
           "main_menu_link_list": "main-menu",
           "drawer_bottom_link_list": "footer",
           "drawer_search_enable": true,
-          "show_announcement": false,
+          "show_announcement": true,
           "home_page_only": true,
-          "text": "Announce something here",
+          "text": "Free Standard Shipping Within Australia | $39 AUD Flat Rate Shipping to USA",
           "link": "",
-          "color_bg": "#1f2021",
-          "color_text": "#1f2021"
+          "color_bg": "#000000",
+          "color_text": "#ffffff"
         }
       },
       "slideshow": {
