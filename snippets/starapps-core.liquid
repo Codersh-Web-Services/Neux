@@ -3,10 +3,11 @@
 <!-- Please contact support@starapps.studio for any help -->
 <!-- File location: snippets/starapps-core.liquid -->{% comment %} meta_information_start {% endcomment %}
 {% comment %}Locale, Currency and other meta data of the store{% endcomment %}
-<script type="application/json" sa-language-info="true" data-no-instant="true">{{ newline }}{"current_language":"{{ shop.locale | escape }}", "default_language":"{%- for locale in shop.published_locales -%}{%- if locale.primary -%}{{ locale.iso_code | escape }}{%- endif -%}{%- endfor -%}", "money_format":{{ shop.money_format | json }}}{{ newline }}</script>
+<script type="text/javascript" sa-published-language-info="true" data-no-instant="true">{% assign published_locales = shop.published_locales | where: "primary", true %}{%- if published_locales.size == 0 -%} (function(){console.log("LANGUAGE_ERROR ::: Default langaugae is not published in this market.")})(); {% endif %}</script>
+<script type="application/json" sa-money-format="true" data-no-instant="true">{{ newline }}{"money_format":{{ shop.money_format | json }}}{{ newline }}</script>
 {% comment %} meta_information_end {% endcomment %}
     
-<script type="text/javascript" src="https://assets-cdn.starapps.studio/apps/vsk/neux-com/script-46057-1692405776.js?shop={{shop.permanent_domain}}" async></script>
+<script type="text/javascript" src="https://assets-cdn.starapps.studio/apps/vsk/neux-com/script-46057-1695622631.js?shop={{shop.permanent_domain}}" async></script>
 
 
 <!-- VSK_PRE_APP_HIDE_CODE -->
