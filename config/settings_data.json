@@ -425,7 +425,20 @@
       "1656426359ee63170c",
       "9d303c76-04a0-427e-8a56-ac07e9569780",
       "1656481026a3473a63"
-    ]
+    ],
+    "blocks": {
+      "starapps-vsk": {
+        "type": "shopify:\/\/apps\/swatch-king-variants-options\/blocks\/variant-swatch-king\/0850b1e4-ba30-4a0d-a8f4-f9a939276d7d",
+        "disabled": false,
+        "settings": {
+          "enable": true,
+          "alignment": "center",
+          "swatch_location": "After image",
+          "switch_on_hover": true,
+          "preselect_variant": false
+        }
+      }
+    }
   },
   "presets": {
     "Classic": {
